@@ -1,0 +1,95 @@
+weapon thompson  hand rig viewmodel_hands_new  compiled tables: kPalmH4_SUPP, kPalmH4_TRIG, kPalmSTEN4_SUPP, kPalmSTEN4_TRIG, kPalmSUPP, kPalmTRIG
+animation states: 22
+posed states: 22
+
+=== kPalmTRIG: 48 landmarks, bind gyration 0.044837 m ===
+
+=== kPalmSUPP: 48 landmarks, bind gyration 0.044075 m ===
+
+HYPOTHESIS                                           n      min_m     mean_m      max_m  verdict
+--------------------------------------------------------------------------------------------------------
+kPalmSUPP.A_correct                                 22    0.00000    0.00000    0.00000  solves
+kPalmSUPP.B_all_zero                                 1    0.04408    0.04408    0.04408  refuses (constant)
+kPalmSUPP.F_half_prev_half_zero                     21    0.08038    0.15984    0.33027  refuses (varies)
+kPalmSUPP.G_chunk_04096_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmSUPP.G_chunk_04096_zero                        21    0.04408    0.04408    0.04408  refuses (constant)
+kPalmSUPP.G_chunk_08192_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmSUPP.G_chunk_08192_zero                        21    0.04408    0.04408    0.04408  refuses (constant)
+kPalmSUPP.G_chunk_12288_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmSUPP.G_chunk_12288_zero                        21    0.04408    0.04408    0.04408  refuses (constant)
+kPalmSUPP.G_chunk_16384_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmSUPP.G_chunk_16384_zero                        21    0.04408    0.04408    0.04408  refuses (constant)
+kPalmSUPP.G_chunk_20480_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmSUPP.G_chunk_20480_zero                        21    0.04408    0.04408    0.04408  refuses (constant)
+kPalmSUPP.G_chunk_24576_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmSUPP.G_chunk_24576_zero                        21    0.04408    0.04408    0.04408  refuses (constant)
+kPalmSUPP.G_chunk_32768_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmSUPP.G_chunk_32768_zero                        21    0.04408    0.04408    0.04408  refuses (constant)
+kPalmSUPP.G_chunk_36864_prev                        21    0.00000    0.08686    0.21560  crosses the window but VARIES with animation (0.0000..0.2156)
+kPalmSUPP.G_chunk_36864_zero                        21    0.07726    0.15676    0.32436  refuses (varies)
+kPalmSUPP.G_chunk_40960_prev                        21    0.00000    0.05572    0.14322  crosses the window but VARIES with animation (0.0000..0.1432)
+kPalmSUPP.G_chunk_40960_zero                        21    0.05536    0.10332    0.20645  refuses (varies)
+kPalmSUPP.G_chunk_45056_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmSUPP.G_chunk_45056_zero                        21    0.00000    0.00000    0.00000  solves
+kPalmSUPP.G_chunk_49152_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmSUPP.G_chunk_49152_zero                        21    0.00000    0.00000    0.00000  solves
+kPalmSUPP.G_chunk_53248_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmSUPP.G_chunk_53248_zero                        21    0.00000    0.00000    0.00000  solves
+kPalmSUPP.H_posblock_shift+4                        22    0.01149    0.01870    0.02135  refuses (varies)
+kPalmSUPP.H_posblock_shift+8                        22    0.01911    0.02489    0.02676  refuses (varies)
+kPalmSUPP.H_posblock_shift-4                        22    0.00952    0.01488    0.02060  refuses (varies)
+kPalmSUPP.H_posblock_shift-8                        22    0.02154    0.02367    0.02850  refuses (varies)
+kPalmSUPP.I_stride20_nrmbase                        22    0.04659    0.04742    0.04802  refuses (varies)
+kPalmSUPP.I_stride20_posbase                        22    0.13696    0.24753    0.47965  refuses (varies)
+kPalmSUPP.I_stride20_texbase                        22    0.04141    0.04189    0.04300  refuses (varies)
+kPalmSUPP.J_normals_as_positions                    22    0.03175    0.03175    0.03175  refuses (constant)
+kPalmSUPP.J_texblock_stride12_as_positions          22    0.04178    0.04178    0.04178  refuses (constant)
+kPalmSUPP.J_texcoords_stride8_as_positions          22    0.04165    0.04165    0.04165  refuses (constant)
+kPalmSUPP.K_prev_frame_whole                        21    0.00000    0.00000    0.00000  solves
+kPalmSUPP.L_shape_correct                           22    0.04408    0.04408    0.04408  refuses (constant)
+kPalmSUPP.bind_gyration                              1    0.04408    0.04408    0.04408  refuses (constant)
+kPalmTRIG.A_correct                                 22    0.00000    0.00000    0.00000  solves
+kPalmTRIG.B_all_zero                                 1    0.04484    0.04484    0.04484  refuses (constant)
+kPalmTRIG.F_half_prev_half_zero                     21    0.05433    0.08556    0.12262  refuses (varies)
+kPalmTRIG.G_chunk_04096_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmTRIG.G_chunk_04096_zero                        21    0.04484    0.04484    0.04484  refuses (constant)
+kPalmTRIG.G_chunk_08192_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmTRIG.G_chunk_08192_zero                        21    0.04484    0.04484    0.04484  refuses (constant)
+kPalmTRIG.G_chunk_12288_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmTRIG.G_chunk_12288_zero                        21    0.04484    0.04484    0.04484  refuses (constant)
+kPalmTRIG.G_chunk_16384_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmTRIG.G_chunk_16384_zero                        21    0.04484    0.04484    0.04484  refuses (constant)
+kPalmTRIG.G_chunk_20480_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmTRIG.G_chunk_20480_zero                        21    0.04484    0.04484    0.04484  refuses (constant)
+kPalmTRIG.G_chunk_24576_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmTRIG.G_chunk_24576_zero                        21    0.04484    0.04484    0.04484  refuses (constant)
+kPalmTRIG.G_chunk_32768_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmTRIG.G_chunk_32768_zero                        21    0.04484    0.04484    0.04484  refuses (constant)
+kPalmTRIG.G_chunk_36864_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmTRIG.G_chunk_36864_zero                        21    0.04484    0.04484    0.04484  refuses (constant)
+kPalmTRIG.G_chunk_40960_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmTRIG.G_chunk_40960_zero                        21    0.04484    0.04484    0.04484  refuses (constant)
+kPalmTRIG.G_chunk_45056_prev                        21    0.00000    0.03514    0.08093  crosses the window but VARIES with animation (0.0000..0.0809)
+kPalmTRIG.G_chunk_45056_zero                        21    0.05249    0.08118    0.11105  refuses (varies)
+kPalmTRIG.G_chunk_49152_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmTRIG.G_chunk_49152_zero                        21    0.00000    0.00000    0.00000  solves
+kPalmTRIG.G_chunk_53248_prev                        21    0.00000    0.00000    0.00000  solves
+kPalmTRIG.G_chunk_53248_zero                        21    0.00000    0.00000    0.00000  solves
+kPalmTRIG.H_posblock_shift+4                        22    0.01267    0.01826    0.02296  refuses (varies)
+kPalmTRIG.H_posblock_shift+8                        22    0.01901    0.02113    0.02422  refuses (varies)
+kPalmTRIG.H_posblock_shift-4                        22    0.00839    0.01399    0.01676  refuses (varies)
+kPalmTRIG.H_posblock_shift-8                        22    0.01501    0.01792    0.02357  refuses (varies)
+kPalmTRIG.I_stride20_nrmbase                        22    0.09635    0.22838    0.45202  refuses (varies)
+kPalmTRIG.I_stride20_texbase                        22    0.04600    0.04806    0.04872  refuses (varies)
+kPalmTRIG.J_normals_as_positions                    22    0.03252    0.03252    0.03252  refuses (constant)
+kPalmTRIG.J_texblock_stride12_as_positions          22    0.04193    0.04416    0.04563  crosses the window but VARIES with animation (0.0419..0.0456)
+kPalmTRIG.J_texcoords_stride8_as_positions          22    0.04257    0.04257    0.04257  refuses (constant)
+kPalmTRIG.K_prev_frame_whole                        21    0.00000    0.00000    0.00000  solves
+kPalmTRIG.L_shape_correct                           22    0.04484    0.04484    0.04484  refuses (constant)
+kPalmTRIG.bind_gyration                              1    0.04484    0.04484    0.04484  refuses (constant)
+
+fingerprint window: [0.04545, 0.04555] m (log printed 0.0455 with %.4f), and CONSTANT across animation
+CONSTANT patterns inside the window: NONE
+CONSTANT patterns within 1% of 0.0455: NONE
+patterns that only CROSS the window while varying with animation (cannot be a five-heartbeat constant): 101
+exit 0

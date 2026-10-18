@@ -1,0 +1,330 @@
+{
+  "method": "authored loading hand at ammo-add normalized reload time, directly in posed body-bone frame",
+  "models": [
+    {
+      "model": "viewmodel_BAR",
+      "weapon": "30cal",
+      "vertexCount": 516,
+      "animation": "viewmodel_bar_reload_empty",
+      "animationSource": "pak0.pk3",
+      "ammoAddTime": 2.33,
+      "duration": 3.8,
+      "frame": 77,
+      "numFrames": 127,
+      "authoredHand": "SUPPORT",
+      "loadZoneBodyM": [
+        -0.024816,
+        0.006487,
+        -0.191175
+      ],
+      "directLoad": false
+    },
+    {
+      "model": "viewmodel_bren",
+      "weapon": "bren",
+      "vertexCount": 1284,
+      "animation": "viewmodel_bren_reload_empty",
+      "animationSource": "pak0.pk3",
+      "ammoAddTime": 2.6,
+      "duration": 3.7,
+      "frame": 81,
+      "numFrames": 116,
+      "authoredHand": "TRIGGER",
+      "loadZoneBodyM": [
+        0.334552,
+        -0.191448,
+        0.246963
+      ],
+      "directLoad": false
+    },
+    {
+      "model": "viewmodel_colt",
+      "weapon": "colt",
+      "vertexCount": 344,
+      "animation": "viewmodel_colt45_reload_empty",
+      "animationSource": "pak0.pk3",
+      "ammoAddTime": 1.7,
+      "duration": 2.35,
+      "frame": 48,
+      "numFrames": 67,
+      "authoredHand": "SUPPORT",
+      "loadZoneBodyM": [
+        -0.088938,
+        -0.016031,
+        -0.162986
+      ],
+      "directLoad": false
+    },
+    {
+      "model": "viewmodel_enfield",
+      "weapon": "enfield",
+      "vertexCount": 1197,
+      "animation": "viewmodel_enfield_reload_loop",
+      "animationSource": "pak0.pk3",
+      "ammoAddTime": 0.6,
+      "duration": 0.7,
+      "frame": 18,
+      "numFrames": 22,
+      "authoredHand": "TRIGGER",
+      "loadZoneBodyM": [
+        -0.815872,
+        0.083253,
+        -0.080287
+      ],
+      "directLoad": true
+    },
+    {
+      "model": "viewmodel_fg42",
+      "weapon": "fg42",
+      "vertexCount": 999,
+      "animation": "viewmodel_fg42_reload_empty",
+      "animationSource": "pak0.pk3",
+      "ammoAddTime": 2.0,
+      "duration": 3.77,
+      "frame": 57,
+      "numFrames": 109,
+      "authoredHand": "SUPPORT",
+      "loadZoneBodyM": [
+        -0.045201,
+        0.20478,
+        -0.037381
+      ],
+      "directLoad": false
+    },
+    {
+      "model": "viewmodel_kar98k",
+      "weapon": "kar98k",
+      "vertexCount": 536,
+      "animation": "viewmodel_kar98_reload",
+      "animationSource": "pak0.pk3",
+      "ammoAddTime": 1.5,
+      "duration": 2.5,
+      "frame": 46,
+      "numFrames": 78,
+      "authoredHand": "TRIGGER",
+      "loadZoneBodyM": [
+        0.129366,
+        0.034609,
+        -0.051255
+      ],
+      "directLoad": true
+    },
+    {
+      "model": "viewmodel_kar98kscoped",
+      "weapon": "kar98k_sniper",
+      "vertexCount": 536,
+      "animation": "viewmodel_kar98scoped_reload_loop",
+      "animationSource": "pak0.pk3",
+      "ammoAddTime": 0.2,
+      "duration": 0.6,
+      "frame": 7,
+      "numFrames": 21,
+      "authoredHand": "TRIGGER",
+      "loadZoneBodyM": [
+        0.168307,
+        0.046084,
+        -0.022064
+      ],
+      "directLoad": true,
+      "sharedKeyNotEmitted": true
+    },
+    {
+      "model": "viewmodel_luger",
+      "weapon": "luger",
+      "vertexCount": 1174,
+      "animation": "viewmodel_luger_emptyreload",
+      "animationSource": "pak0.pk3",
+      "ammoAddTime": 1.8,
+      "duration": 2.7,
+      "frame": 57,
+      "numFrames": 86,
+      "authoredHand": "SUPPORT",
+      "loadZoneBodyM": [
+        0.013241,
+        -0.139471,
+        -0.128814
+      ],
+      "directLoad": false
+    },
+    {
+      "model": "viewmodel_m1carbine",
+      "weapon": "m1carbine",
+      "vertexCount": 542,
+      "animation": "viewmodel_m1carbine_reload",
+      "animationSource": "pak0.pk3",
+      "ammoAddTime": 1.35,
+      "duration": 3.3,
+      "frame": 41,
+      "numFrames": 101,
+      "authoredHand": "BOTH",
+      "loadZoneBodyM": [
+        0.03746,
+        0.08249,
+        0.44434
+      ],
+      "directLoad": false
+    },
+    {
+      "model": "viewmodel_m1garand",
+      "weapon": "m1garand",
+      "vertexCount": 494,
+      "animation": "viewmodel_m1garandfov_reload",
+      "animationSource": "pak0.pk3",
+      "ammoAddTime": 0.83,
+      "duration": 1.6,
+      "frame": 24,
+      "numFrames": 47,
+      "authoredHand": "TRIGGER",
+      "loadZoneBodyM": [
+        0.030789,
+        -0.044325,
+        0.154812
+      ],
+      "directLoad": true
+    },
+    {
+      "model": "viewmodel_mp40",
+      "weapon": "mp40",
+      "vertexCount": 724,
+      "animation": "viewmodel_mp40_reload_empty",
+      "animationSource": "pak0.pk3",
+      "ammoAddTime": 1.77,
+      "duration": 2.4,
+      "frame": 60,
+      "numFrames": 83,
+      "authoredHand": "SUPPORT",
+      "loadZoneBodyM": [
+        0.164699,
+        -0.100484,
+        -0.046076
+      ],
+      "directLoad": false
+    },
+    {
+      "model": "viewmodel_mp44",
+      "weapon": "mp44",
+      "vertexCount": 854,
+      "animation": "viewmodel_mp44_reload_empty",
+      "animationSource": "pak0.pk3",
+      "ammoAddTime": 1.5,
+      "duration": 2.67,
+      "frame": 47,
+      "numFrames": 84,
+      "authoredHand": "SUPPORT",
+      "loadZoneBodyM": [
+        0.056218,
+        -0.329583,
+        0.015234
+      ],
+      "directLoad": false
+    },
+    {
+      "model": "viewmodel_nagant",
+      "weapon": "mosin_nagant",
+      "vertexCount": 652,
+      "animation": "viewmodel_mosinnagant_reload",
+      "animationSource": "pak0.pk3",
+      "ammoAddTime": 1.47,
+      "duration": 2.4,
+      "frame": 47,
+      "numFrames": 77,
+      "authoredHand": "TRIGGER",
+      "loadZoneBodyM": [
+        0.227756,
+        0.089673,
+        0.061931
+      ],
+      "directLoad": true
+    },
+    {
+      "model": "viewmodel_nagantscoped",
+      "weapon": "mosin_nagant_sniper",
+      "vertexCount": 923,
+      "animation": "viewmodel_mosinnagantscoped_reloadinsert",
+      "animationSource": "pak0.pk3",
+      "ammoAddTime": 1.5,
+      "duration": 2.5,
+      "frame": 46,
+      "numFrames": 77,
+      "authoredHand": "TRIGGER",
+      "loadZoneBodyM": [
+        0.226094,
+        0.088008,
+        0.071912
+      ],
+      "directLoad": true
+    },
+    {
+      "model": "viewmodel_ppsh",
+      "weapon": "ppsh",
+      "vertexCount": 782,
+      "animation": "viewmodel_ppsh_reload",
+      "animationSource": "pak0.pk3",
+      "ammoAddTime": 1.33,
+      "duration": 2.57,
+      "frame": 40,
+      "numFrames": 78,
+      "authoredHand": "SUPPORT",
+      "loadZoneBodyM": [
+        -0.084635,
+        -0.086807,
+        0.140645
+      ],
+      "directLoad": false
+    },
+    {
+      "model": "viewmodel_springfield",
+      "weapon": "springfield",
+      "vertexCount": 729,
+      "animation": "viewmodel_springfield_reload_loop",
+      "animationSource": "pak0.pk3",
+      "ammoAddTime": 0.2,
+      "duration": 0.6,
+      "frame": 7,
+      "numFrames": 21,
+      "authoredHand": "TRIGGER",
+      "loadZoneBodyM": [
+        -0.182945,
+        0.09695,
+        -0.433036
+      ],
+      "directLoad": true
+    },
+    {
+      "model": "viewmodel_sten",
+      "weapon": "sten",
+      "vertexCount": 630,
+      "animation": "viewmodel_sten_reload_empty",
+      "animationSource": "pak0.pk3",
+      "ammoAddTime": 2.5,
+      "duration": 3.0,
+      "frame": 77,
+      "numFrames": 93,
+      "authoredHand": "SUPPORT",
+      "loadZoneBodyM": [
+        0.033726,
+        -0.002932,
+        -0.127099
+      ],
+      "directLoad": false
+    },
+    {
+      "model": "viewmodel_thompson",
+      "weapon": "thompson",
+      "vertexCount": 326,
+      "animation": "viewmodel_thompson_reload_empty",
+      "animationSource": "pak0.pk3",
+      "ammoAddTime": 1.65,
+      "duration": 2.2,
+      "frame": 51,
+      "numFrames": 69,
+      "authoredHand": "SUPPORT",
+      "loadZoneBodyM": [
+        -0.206451,
+        -0.023336,
+        0.178963
+      ],
+      "directLoad": false
+    }
+  ]
+}

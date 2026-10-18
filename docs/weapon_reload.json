@@ -1,0 +1,3924 @@
+{
+ "weapons": [
+  {
+   "weapon": "30cal",
+   "weaponClass": "rifle",
+   "weaponType": "bullet",
+   "clipSize": "20",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_bar_reload",
+   "reloadEmptyAnim": "viewmodel_bar_reload_empty",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "3.4",
+   "reloadEmptyTime": "3.8",
+   "reloadAddTime": "2.33",
+   "measuredAnim": "viewmodel_bar_reload_empty",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "SUPPORT",
+    "confidence": "PROVEN",
+    "evidence": "support hand travels 0.637 m vs the trigger hand's 0.403 m"
+   },
+   "supportReachM": {
+    "value": 0.63729,
+    "confidence": "PROVEN",
+    "evidence": "peak support-hand excursion in viewmodel_bar_reload_empty"
+   },
+   "triggerReachM": {
+    "value": 0.40293,
+    "confidence": "PROVEN",
+    "evidence": "peak trigger-hand excursion in viewmodel_bar_reload_empty"
+   },
+   "loadReachM": {
+    "value": 0.63729,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     0.35208,
+     0.03547,
+     -0.10524
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_bar_reload_empty"
+   },
+   "loadZoneM": {
+    "value": [
+     -0.21043,
+     0.15297,
+     -0.38077
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 57 of viewmodel_bar_reload_empty"
+   },
+   "supportGripM": {
+    "value": [
+     0.35208,
+     0.03547,
+     -0.10524
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_bar_reload_empty"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.02947,
+     -0.04041,
+     -0.0407
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_bar_reload_empty"
+   },
+   "magazineType": {
+    "value": "DETACHABLE",
+    "confidence": "PROVEN",
+    "evidence": "single motion performed by the support hand, which travels 0.637 m away from the weapon to fetch it"
+   },
+   "ammoAddFrac": {
+    "value": 0.6132,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "30cal_prone",
+   "weaponClass": "turret",
+   "weaponType": "bullet",
+   "clipSize": "",
+   "boltAction": "",
+   "reloadAnim": "",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "",
+   "measuredAnim": "",
+   "trackFrames": 0,
+   "trackNote": "gun/hand model or reload animation unavailable",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "class 'turret' / type 'bullet' has no reload"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no reload to perform"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in "
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in "
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "loadZoneM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "supportGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "triggerGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "30cal_stand",
+   "weaponClass": "turret",
+   "weaponType": "bullet",
+   "clipSize": "",
+   "boltAction": "",
+   "reloadAnim": "",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "",
+   "measuredAnim": "",
+   "trackFrames": 0,
+   "trackNote": "gun/hand model or reload animation unavailable",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "class 'turret' / type 'bullet' has no reload"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no reload to perform"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in "
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in "
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "loadZoneM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "supportGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "triggerGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "bar",
+   "weaponClass": "rifle",
+   "weaponType": "bullet",
+   "clipSize": "20",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_bar_reload",
+   "reloadEmptyAnim": "viewmodel_bar_reload_empty",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "3.4",
+   "reloadEmptyTime": "3.8",
+   "reloadAddTime": "2.33",
+   "measuredAnim": "viewmodel_bar_reload_empty",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "SUPPORT",
+    "confidence": "PROVEN",
+    "evidence": "support hand travels 0.637 m vs the trigger hand's 0.403 m"
+   },
+   "supportReachM": {
+    "value": 0.63729,
+    "confidence": "PROVEN",
+    "evidence": "peak support-hand excursion in viewmodel_bar_reload_empty"
+   },
+   "triggerReachM": {
+    "value": 0.40293,
+    "confidence": "PROVEN",
+    "evidence": "peak trigger-hand excursion in viewmodel_bar_reload_empty"
+   },
+   "loadReachM": {
+    "value": 0.63729,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     0.35208,
+     0.03547,
+     -0.10524
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_bar_reload_empty"
+   },
+   "loadZoneM": {
+    "value": [
+     -0.21043,
+     0.15297,
+     -0.38077
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 57 of viewmodel_bar_reload_empty"
+   },
+   "supportGripM": {
+    "value": [
+     0.35208,
+     0.03547,
+     -0.10524
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_bar_reload_empty"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.02947,
+     -0.04041,
+     -0.0407
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_bar_reload_empty"
+   },
+   "magazineType": {
+    "value": "DETACHABLE",
+    "confidence": "PROVEN",
+    "evidence": "single motion performed by the support hand, which travels 0.637 m away from the weapon to fetch it"
+   },
+   "ammoAddFrac": {
+    "value": 0.6132,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "bar_slow",
+   "weaponClass": "rifle",
+   "weaponType": "bullet",
+   "clipSize": "20",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_bar_reload",
+   "reloadEmptyAnim": "viewmodel_bar_reload_empty",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "3.4",
+   "reloadEmptyTime": "3.8",
+   "reloadAddTime": "2.33",
+   "measuredAnim": "viewmodel_bar_reload_empty",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "SUPPORT",
+    "confidence": "PROVEN",
+    "evidence": "support hand travels 0.637 m vs the trigger hand's 0.403 m"
+   },
+   "supportReachM": {
+    "value": 0.63729,
+    "confidence": "PROVEN",
+    "evidence": "peak support-hand excursion in viewmodel_bar_reload_empty"
+   },
+   "triggerReachM": {
+    "value": 0.40293,
+    "confidence": "PROVEN",
+    "evidence": "peak trigger-hand excursion in viewmodel_bar_reload_empty"
+   },
+   "loadReachM": {
+    "value": 0.63729,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     0.35208,
+     0.03547,
+     -0.10524
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_bar_reload_empty"
+   },
+   "loadZoneM": {
+    "value": [
+     -0.21043,
+     0.15297,
+     -0.38077
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 57 of viewmodel_bar_reload_empty"
+   },
+   "supportGripM": {
+    "value": [
+     0.35208,
+     0.03547,
+     -0.10524
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_bar_reload_empty"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.02947,
+     -0.04041,
+     -0.0407
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_bar_reload_empty"
+   },
+   "magazineType": {
+    "value": "DETACHABLE",
+    "confidence": "PROVEN",
+    "evidence": "single motion performed by the support hand, which travels 0.637 m away from the weapon to fetch it"
+   },
+   "ammoAddFrac": {
+    "value": 0.6132,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "bren",
+   "weaponClass": "rifle",
+   "weaponType": "bullet",
+   "clipSize": "30",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_bren_reload",
+   "reloadEmptyAnim": "viewmodel_bren_reload_empty",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2.86",
+   "reloadEmptyTime": "3.7",
+   "reloadAddTime": "2.6",
+   "measuredAnim": "viewmodel_bren_reload_empty",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "TRIGGER",
+    "confidence": "PROVEN",
+    "evidence": "trigger hand travels 0.556 m vs the support hand's 0.175 m"
+   },
+   "supportReachM": {
+    "value": 0.1746,
+    "confidence": "PROVEN",
+    "evidence": "peak support-hand excursion in viewmodel_bren_reload_empty"
+   },
+   "triggerReachM": {
+    "value": 0.55644,
+    "confidence": "PROVEN",
+    "evidence": "peak trigger-hand excursion in viewmodel_bren_reload_empty"
+   },
+   "loadReachM": {
+    "value": 0.55644,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the trigger hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     0.03795,
+     -0.03526,
+     -0.1166
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_bren_reload_empty"
+   },
+   "loadZoneM": {
+    "value": [
+     0.18455,
+     -0.45851,
+     0.21353
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 57 of viewmodel_bren_reload_empty"
+   },
+   "supportGripM": {
+    "value": [
+     0.41307,
+     0.12337,
+     -0.11837
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_bren_reload_empty"
+   },
+   "triggerGripM": {
+    "value": [
+     0.03795,
+     -0.03526,
+     -0.1166
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_bren_reload_empty"
+   },
+   "magazineType": {
+    "value": "EN_BLOC",
+    "confidence": "WEAK",
+    "evidence": "single motion, clipSize 30, performed by the TRIGGER hand while the support hand cradles the weapon -- consistent with a clip pressed in, but a top-mounted detachable magazine animates the same way (see the Bren)"
+   },
+   "ammoAddFrac": {
+    "value": 0.7027,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "colt",
+   "weaponClass": "pistol",
+   "weaponType": "bullet",
+   "clipSize": "7",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_colt45_reload",
+   "reloadEmptyAnim": "viewmodel_colt45_reload_empty",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2.25",
+   "reloadEmptyTime": "2.35",
+   "reloadAddTime": "1.7",
+   "measuredAnim": "viewmodel_colt45_reload_empty",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "SUPPORT",
+    "confidence": "PROVEN",
+    "evidence": "support hand travels 0.456 m vs the trigger hand's 0.044 m"
+   },
+   "supportReachM": {
+    "value": 0.45639,
+    "confidence": "PROVEN",
+    "evidence": "peak support-hand excursion in viewmodel_colt45_reload_empty"
+   },
+   "triggerReachM": {
+    "value": 0.04429,
+    "confidence": "STRONG",
+    "evidence": "peak trigger-hand excursion in viewmodel_colt45_reload_empty"
+   },
+   "loadReachM": {
+    "value": 0.45639,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     -0.06433,
+     0.04247,
+     -0.17487
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_colt45_reload_empty"
+   },
+   "loadZoneM": {
+    "value": [
+     -0.21483,
+     0.30732,
+     -0.51471
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 12 of viewmodel_colt45_reload_empty"
+   },
+   "supportGripM": {
+    "value": [
+     -0.06433,
+     0.04247,
+     -0.17487
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_colt45_reload_empty"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.07783,
+     -0.01081,
+     -0.09667
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_colt45_reload_empty"
+   },
+   "magazineType": {
+    "value": "DETACHABLE",
+    "confidence": "PROVEN",
+    "evidence": "single motion performed by the support hand, which travels 0.456 m away from the weapon to fetch it"
+   },
+   "ammoAddFrac": {
+    "value": 0.7234,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "enfield",
+   "weaponClass": "rifle",
+   "weaponType": "bullet",
+   "clipSize": "10",
+   "boltAction": "1",
+   "reloadAnim": "viewmodel_enfield_reload_loop",
+   "reloadEmptyAnim": "viewmodel_enfield_reload_loop",
+   "reloadStartAnim": "viewmodel_enfield_reload_intro",
+   "reloadEndAnim": "viewmodel_enfield_reload_outro",
+   "reloadTime": "0.7",
+   "reloadEmptyTime": "0.7",
+   "reloadAddTime": "0.6",
+   "measuredAnim": "viewmodel_enfield_reload_intro",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "INCREMENTAL",
+    "confidence": "PROVEN",
+    "evidence": "reloadStartAnim+reloadEndAnim present and reloadStart/EndTime nonzero -- the engine repeats one feeding motion per round"
+   },
+   "loadHand": {
+    "value": "TRIGGER",
+    "confidence": "PROVEN",
+    "evidence": "trigger hand travels 0.132 m vs the support hand's 0.016 m"
+   },
+   "supportReachM": {
+    "value": 0.01566,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in viewmodel_enfield_reload_intro"
+   },
+   "triggerReachM": {
+    "value": 0.13151,
+    "confidence": "PROVEN",
+    "evidence": "peak trigger-hand excursion in viewmodel_enfield_reload_intro"
+   },
+   "loadReachM": {
+    "value": 0.13151,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the trigger hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     -0.02972,
+     -0.04045,
+     -0.04693
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_enfield_reload_intro"
+   },
+   "loadZoneM": {
+    "value": [
+     0.00247,
+     -0.14604,
+     0.02455
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 32 of viewmodel_enfield_reload_intro"
+   },
+   "supportGripM": {
+    "value": [
+     0.36262,
+     0.0384,
+     -0.08777
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_enfield_reload_intro"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.02972,
+     -0.04045,
+     -0.04693
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_enfield_reload_intro"
+   },
+   "magazineType": {
+    "value": "LOOSE_ROUNDS",
+    "confidence": "PROVEN",
+    "evidence": "the engine feeds one round per loop iteration"
+   },
+   "ammoAddFrac": {
+    "value": 0.8571,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "fg42",
+   "weaponClass": "rifle",
+   "weaponType": "bullet",
+   "clipSize": "20",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_fg42_reload",
+   "reloadEmptyAnim": "viewmodel_fg42_reload_empty",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2.3",
+   "reloadEmptyTime": "3.77",
+   "reloadAddTime": "2",
+   "measuredAnim": "viewmodel_fg42_reload_empty",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "SUPPORT",
+    "confidence": "PROVEN",
+    "evidence": "support hand travels 0.701 m vs the trigger hand's 0.199 m"
+   },
+   "supportReachM": {
+    "value": 0.70056,
+    "confidence": "PROVEN",
+    "evidence": "peak support-hand excursion in viewmodel_fg42_reload_empty"
+   },
+   "triggerReachM": {
+    "value": 0.19941,
+    "confidence": "PROVEN",
+    "evidence": "peak trigger-hand excursion in viewmodel_fg42_reload_empty"
+   },
+   "loadReachM": {
+    "value": 0.70056,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     0.32429,
+     0.05833,
+     -0.08597
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_fg42_reload_empty"
+   },
+   "loadZoneM": {
+    "value": [
+     -0.02483,
+     0.66565,
+     -0.09464
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 42 of viewmodel_fg42_reload_empty"
+   },
+   "supportGripM": {
+    "value": [
+     0.32429,
+     0.05833,
+     -0.08597
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_fg42_reload_empty"
+   },
+   "triggerGripM": {
+    "value": [
+     0.10432,
+     -0.04833,
+     -0.13232
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_fg42_reload_empty"
+   },
+   "magazineType": {
+    "value": "DETACHABLE",
+    "confidence": "PROVEN",
+    "evidence": "single motion performed by the support hand, which travels 0.701 m away from the weapon to fetch it"
+   },
+   "ammoAddFrac": {
+    "value": 0.5305,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "fg42_auto",
+   "weaponClass": "rifle",
+   "weaponType": "bullet",
+   "clipSize": "20",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_fg42_reload",
+   "reloadEmptyAnim": "viewmodel_fg42_reload_empty",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2.3",
+   "reloadEmptyTime": "3.77",
+   "reloadAddTime": "2",
+   "measuredAnim": "viewmodel_fg42_reload_empty",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "SUPPORT",
+    "confidence": "PROVEN",
+    "evidence": "support hand travels 0.701 m vs the trigger hand's 0.199 m"
+   },
+   "supportReachM": {
+    "value": 0.70056,
+    "confidence": "PROVEN",
+    "evidence": "peak support-hand excursion in viewmodel_fg42_reload_empty"
+   },
+   "triggerReachM": {
+    "value": 0.19941,
+    "confidence": "PROVEN",
+    "evidence": "peak trigger-hand excursion in viewmodel_fg42_reload_empty"
+   },
+   "loadReachM": {
+    "value": 0.70056,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     0.32429,
+     0.05833,
+     -0.08597
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_fg42_reload_empty"
+   },
+   "loadZoneM": {
+    "value": [
+     -0.02483,
+     0.66565,
+     -0.09464
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 42 of viewmodel_fg42_reload_empty"
+   },
+   "supportGripM": {
+    "value": [
+     0.32429,
+     0.05833,
+     -0.08597
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_fg42_reload_empty"
+   },
+   "triggerGripM": {
+    "value": [
+     0.10432,
+     -0.04833,
+     -0.13232
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_fg42_reload_empty"
+   },
+   "magazineType": {
+    "value": "DETACHABLE",
+    "confidence": "PROVEN",
+    "evidence": "single motion performed by the support hand, which travels 0.701 m away from the weapon to fetch it"
+   },
+   "ammoAddFrac": {
+    "value": 0.5305,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "flak88_turret",
+   "weaponClass": "non-player",
+   "weaponType": "projectile",
+   "clipSize": "",
+   "boltAction": "",
+   "reloadAnim": "",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "",
+   "measuredAnim": "",
+   "trackFrames": 0,
+   "trackNote": "gun/hand model or reload animation unavailable",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "class 'non-player' / type 'projectile' has no reload"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no reload to perform"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in "
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in "
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "loadZoneM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "supportGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "triggerGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "flakvierling_turret",
+   "weaponClass": "non-player",
+   "weaponType": "bullet",
+   "clipSize": "",
+   "boltAction": "",
+   "reloadAnim": "",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "",
+   "measuredAnim": "",
+   "trackFrames": 0,
+   "trackNote": "gun/hand model or reload animation unavailable",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "class 'non-player' / type 'bullet' has no reload"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no reload to perform"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in "
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in "
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "loadZoneM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "supportGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "triggerGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "fraggrenade",
+   "weaponClass": "grenade",
+   "weaponType": "grenade",
+   "clipSize": "10",
+   "boltAction": "",
+   "reloadAnim": "",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "",
+   "measuredAnim": "",
+   "trackFrames": 0,
+   "trackNote": "gun/hand model or reload animation unavailable",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "class 'grenade' / type 'grenade' has no reload"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no reload to perform"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in "
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in "
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "loadZoneM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "supportGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "triggerGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "kar98k",
+   "weaponClass": "rifle",
+   "weaponType": "bullet",
+   "clipSize": "5",
+   "boltAction": "1",
+   "reloadAnim": "viewmodel_kar98_reload",
+   "reloadEmptyAnim": "viewmodel_kar98_reload",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2.5",
+   "reloadEmptyTime": "2.5",
+   "reloadAddTime": "1.5",
+   "measuredAnim": "viewmodel_kar98_reload",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "TRIGGER",
+    "confidence": "PROVEN",
+    "evidence": "trigger hand travels 0.214 m vs the support hand's 0.038 m"
+   },
+   "supportReachM": {
+    "value": 0.03799,
+    "confidence": "STRONG",
+    "evidence": "peak support-hand excursion in viewmodel_kar98_reload"
+   },
+   "triggerReachM": {
+    "value": 0.21448,
+    "confidence": "PROVEN",
+    "evidence": "peak trigger-hand excursion in viewmodel_kar98_reload"
+   },
+   "loadReachM": {
+    "value": 0.21448,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the trigger hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     -0.02957,
+     -0.04039,
+     -0.04655
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_kar98_reload"
+   },
+   "loadZoneM": {
+    "value": [
+     0.13317,
+     -0.08479,
+     0.08592
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 42 of viewmodel_kar98_reload"
+   },
+   "supportGripM": {
+    "value": [
+     0.35208,
+     0.03523,
+     -0.07839
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_kar98_reload"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.02957,
+     -0.04039,
+     -0.04655
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_kar98_reload"
+   },
+   "magazineType": {
+    "value": "STRIPPER_CLIP",
+    "confidence": "STRONG",
+    "evidence": "bolt-action with clipSize 5, loaded by the trigger hand"
+   },
+   "ammoAddFrac": {
+    "value": 0.6,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "kar98k_pavlovsniper",
+   "weaponClass": "rifle",
+   "weaponType": "bullet",
+   "clipSize": "5",
+   "boltAction": "1",
+   "reloadAnim": "viewmodel_kar98_reload",
+   "reloadEmptyAnim": "viewmodel_kar98_reload",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2.5",
+   "reloadEmptyTime": "2.5",
+   "reloadAddTime": "1.5",
+   "measuredAnim": "viewmodel_kar98_reload",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "TRIGGER",
+    "confidence": "PROVEN",
+    "evidence": "trigger hand travels 0.214 m vs the support hand's 0.038 m"
+   },
+   "supportReachM": {
+    "value": 0.03799,
+    "confidence": "STRONG",
+    "evidence": "peak support-hand excursion in viewmodel_kar98_reload"
+   },
+   "triggerReachM": {
+    "value": 0.21448,
+    "confidence": "PROVEN",
+    "evidence": "peak trigger-hand excursion in viewmodel_kar98_reload"
+   },
+   "loadReachM": {
+    "value": 0.21448,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the trigger hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     -0.02957,
+     -0.04039,
+     -0.04655
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_kar98_reload"
+   },
+   "loadZoneM": {
+    "value": [
+     0.13317,
+     -0.08479,
+     0.08592
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 42 of viewmodel_kar98_reload"
+   },
+   "supportGripM": {
+    "value": [
+     0.35208,
+     0.03523,
+     -0.07839
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_kar98_reload"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.02957,
+     -0.04039,
+     -0.04655
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_kar98_reload"
+   },
+   "magazineType": {
+    "value": "STRIPPER_CLIP",
+    "confidence": "STRONG",
+    "evidence": "bolt-action with clipSize 5, loaded by the trigger hand"
+   },
+   "ammoAddFrac": {
+    "value": 0.6,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "kar98k_sniper",
+   "weaponClass": "rifle",
+   "weaponType": "bullet",
+   "clipSize": "5",
+   "boltAction": "1",
+   "reloadAnim": "viewmodel_kar98scoped_reload_loop",
+   "reloadEmptyAnim": "viewmodel_kar98scoped_reload_loop",
+   "reloadStartAnim": "viewmodel_kar98scoped_reload_start",
+   "reloadEndAnim": "viewmodel_kar98scoped_reload_end",
+   "reloadTime": "0.6",
+   "reloadEmptyTime": "0.6",
+   "reloadAddTime": "0.2",
+   "measuredAnim": "viewmodel_kar98scoped_reload_start",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "INCREMENTAL",
+    "confidence": "PROVEN",
+    "evidence": "reloadStartAnim+reloadEndAnim present and reloadStart/EndTime nonzero -- the engine repeats one feeding motion per round"
+   },
+   "loadHand": {
+    "value": "TRIGGER",
+    "confidence": "PROVEN",
+    "evidence": "trigger hand travels 0.128 m vs the support hand's 0.030 m"
+   },
+   "supportReachM": {
+    "value": 0.02999,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in viewmodel_kar98scoped_reload_start"
+   },
+   "triggerReachM": {
+    "value": 0.12784,
+    "confidence": "PROVEN",
+    "evidence": "peak trigger-hand excursion in viewmodel_kar98scoped_reload_start"
+   },
+   "loadReachM": {
+    "value": 0.12784,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the trigger hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     -0.02957,
+     -0.0404,
+     -0.04657
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_kar98scoped_reload_start"
+   },
+   "loadZoneM": {
+    "value": [
+     -0.11429,
+     -0.10682,
+     0.02239
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 20 of viewmodel_kar98scoped_reload_start"
+   },
+   "supportGripM": {
+    "value": [
+     0.35208,
+     0.03523,
+     -0.07839
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_kar98scoped_reload_start"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.02957,
+     -0.0404,
+     -0.04657
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_kar98scoped_reload_start"
+   },
+   "magazineType": {
+    "value": "LOOSE_ROUNDS",
+    "confidence": "PROVEN",
+    "evidence": "the engine feeds one round per loop iteration"
+   },
+   "ammoAddFrac": {
+    "value": 0.3333,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "luger",
+   "weaponClass": "pistol",
+   "weaponType": "bullet",
+   "clipSize": "8",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_luger_reload",
+   "reloadEmptyAnim": "viewmodel_luger_emptyreload",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2.3",
+   "reloadEmptyTime": "2.7",
+   "reloadAddTime": "1.8",
+   "measuredAnim": "viewmodel_luger_emptyreload",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "SUPPORT",
+    "confidence": "PROVEN",
+    "evidence": "support hand travels 0.476 m vs the trigger hand's 0.100 m"
+   },
+   "supportReachM": {
+    "value": 0.47646,
+    "confidence": "PROVEN",
+    "evidence": "peak support-hand excursion in viewmodel_luger_emptyreload"
+   },
+   "triggerReachM": {
+    "value": 0.09973,
+    "confidence": "PROVEN",
+    "evidence": "peak trigger-hand excursion in viewmodel_luger_emptyreload"
+   },
+   "loadReachM": {
+    "value": 0.47646,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     -0.07186,
+     0.03216,
+     -0.26954
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_luger_emptyreload"
+   },
+   "loadZoneM": {
+    "value": [
+     -0.32156,
+     -0.09513,
+     -0.65484
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 16 of viewmodel_luger_emptyreload"
+   },
+   "supportGripM": {
+    "value": [
+     -0.07186,
+     0.03216,
+     -0.26954
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_luger_emptyreload"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.07101,
+     -0.03607,
+     -0.09826
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_luger_emptyreload"
+   },
+   "magazineType": {
+    "value": "DETACHABLE",
+    "confidence": "PROVEN",
+    "evidence": "single motion performed by the support hand, which travels 0.476 m away from the weapon to fetch it"
+   },
+   "ammoAddFrac": {
+    "value": 0.6667,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "m1carbine",
+   "weaponClass": "rifle",
+   "weaponType": "bullet",
+   "clipSize": "15",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_m1carbine_notemptyreload",
+   "reloadEmptyAnim": "viewmodel_m1carbine_reload",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2.65",
+   "reloadEmptyTime": "3.3",
+   "reloadAddTime": "1.35",
+   "measuredAnim": "viewmodel_m1carbine_reload",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "BOTH",
+    "confidence": "STRONG",
+    "evidence": "both hands travel comparably (0.441 m / 0.650 m)"
+   },
+   "supportReachM": {
+    "value": 0.44066,
+    "confidence": "PROVEN",
+    "evidence": "peak support-hand excursion in viewmodel_m1carbine_reload"
+   },
+   "triggerReachM": {
+    "value": 0.64992,
+    "confidence": "PROVEN",
+    "evidence": "peak trigger-hand excursion in viewmodel_m1carbine_reload"
+   },
+   "loadReachM": {
+    "value": 0.44066,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     0.25157,
+     0.04286,
+     -0.08847
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_m1carbine_reload"
+   },
+   "loadZoneM": {
+    "value": [
+     -0.03366,
+     0.37822,
+     -0.06935
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 51 of viewmodel_m1carbine_reload"
+   },
+   "supportGripM": {
+    "value": [
+     0.25157,
+     0.04286,
+     -0.08847
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_m1carbine_reload"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.10913,
+     -0.04547,
+     -0.13242
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_m1carbine_reload"
+   },
+   "magazineType": {
+    "value": "DETACHABLE",
+    "confidence": "WEAK",
+    "evidence": "single motion, but no hand clearly performs it (both, 0.441 m) -- inference only"
+   },
+   "ammoAddFrac": {
+    "value": 0.4091,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "m1carbine_medic",
+   "weaponClass": "rifle",
+   "weaponType": "bullet",
+   "clipSize": "15",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_m1carbine_notemptyreload",
+   "reloadEmptyAnim": "viewmodel_m1carbine_reload",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2.65",
+   "reloadEmptyTime": "3.3",
+   "reloadAddTime": "1.35",
+   "measuredAnim": "viewmodel_m1carbine_reload",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "BOTH",
+    "confidence": "STRONG",
+    "evidence": "both hands travel comparably (0.441 m / 0.650 m)"
+   },
+   "supportReachM": {
+    "value": 0.44066,
+    "confidence": "PROVEN",
+    "evidence": "peak support-hand excursion in viewmodel_m1carbine_reload"
+   },
+   "triggerReachM": {
+    "value": 0.64992,
+    "confidence": "PROVEN",
+    "evidence": "peak trigger-hand excursion in viewmodel_m1carbine_reload"
+   },
+   "loadReachM": {
+    "value": 0.44066,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     0.25157,
+     0.04286,
+     -0.08847
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_m1carbine_reload"
+   },
+   "loadZoneM": {
+    "value": [
+     -0.03366,
+     0.37822,
+     -0.06935
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 51 of viewmodel_m1carbine_reload"
+   },
+   "supportGripM": {
+    "value": [
+     0.25157,
+     0.04286,
+     -0.08847
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_m1carbine_reload"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.10913,
+     -0.04547,
+     -0.13242
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_m1carbine_reload"
+   },
+   "magazineType": {
+    "value": "DETACHABLE",
+    "confidence": "WEAK",
+    "evidence": "single motion, but no hand clearly performs it (both, 0.441 m) -- inference only"
+   },
+   "ammoAddFrac": {
+    "value": 0.4091,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "m1garand",
+   "weaponClass": "rifle",
+   "weaponType": "bullet",
+   "clipSize": "8",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_m1garandfov_reload",
+   "reloadEmptyAnim": "viewmodel_m1garandfov_reload",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "1.6",
+   "reloadEmptyTime": "1.6",
+   "reloadAddTime": "0.83",
+   "measuredAnim": "viewmodel_m1garandfov_reload",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "TRIGGER",
+    "confidence": "PROVEN",
+    "evidence": "trigger hand travels 0.431 m vs the support hand's 0.019 m"
+   },
+   "supportReachM": {
+    "value": 0.01878,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in viewmodel_m1garandfov_reload"
+   },
+   "triggerReachM": {
+    "value": 0.43072,
+    "confidence": "PROVEN",
+    "evidence": "peak trigger-hand excursion in viewmodel_m1garandfov_reload"
+   },
+   "loadReachM": {
+    "value": 0.43072,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the trigger hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     -0.06168,
+     -0.04221,
+     -0.09666
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_m1garandfov_reload"
+   },
+   "loadZoneM": {
+    "value": [
+     -0.19435,
+     -0.03293,
+     -0.50634
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 9 of viewmodel_m1garandfov_reload"
+   },
+   "supportGripM": {
+    "value": [
+     0.3521,
+     0.03273,
+     -0.07839
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_m1garandfov_reload"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.06168,
+     -0.04221,
+     -0.09666
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_m1garandfov_reload"
+   },
+   "magazineType": {
+    "value": "EN_BLOC",
+    "confidence": "WEAK",
+    "evidence": "single motion, clipSize 8, performed by the TRIGGER hand while the support hand cradles the weapon -- consistent with a clip pressed in, but a top-mounted detachable magazine animates the same way (see the Bren)"
+   },
+   "ammoAddFrac": {
+    "value": 0.5187,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "mg42_bipod_duck",
+   "weaponClass": "turret",
+   "weaponType": "bullet",
+   "clipSize": "",
+   "boltAction": "",
+   "reloadAnim": "",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "",
+   "measuredAnim": "",
+   "trackFrames": 0,
+   "trackNote": "gun/hand model or reload animation unavailable",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "class 'turret' / type 'bullet' has no reload"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no reload to perform"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in "
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in "
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "loadZoneM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "supportGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "triggerGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "mg42_bipod_prone",
+   "weaponClass": "turret",
+   "weaponType": "bullet",
+   "clipSize": "",
+   "boltAction": "",
+   "reloadAnim": "",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "",
+   "measuredAnim": "",
+   "trackFrames": 0,
+   "trackNote": "gun/hand model or reload animation unavailable",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "class 'turret' / type 'bullet' has no reload"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no reload to perform"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in "
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in "
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "loadZoneM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "supportGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "triggerGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "mg42_bipod_stand",
+   "weaponClass": "turret",
+   "weaponType": "bullet",
+   "clipSize": "",
+   "boltAction": "",
+   "reloadAnim": "",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "",
+   "measuredAnim": "",
+   "trackFrames": 0,
+   "trackNote": "gun/hand model or reload animation unavailable",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "class 'turret' / type 'bullet' has no reload"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no reload to perform"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in "
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in "
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "loadZoneM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "supportGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "triggerGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "mg42_bipod_unmanned",
+   "weaponClass": "turret",
+   "weaponType": "bullet",
+   "clipSize": "",
+   "boltAction": "",
+   "reloadAnim": "",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "",
+   "measuredAnim": "",
+   "trackFrames": 0,
+   "trackNote": "gun/hand model or reload animation unavailable",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "class 'turret' / type 'bullet' has no reload"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no reload to perform"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in "
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in "
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "loadZoneM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "supportGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "triggerGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "mg42_panzeriv_tank",
+   "weaponClass": "turret",
+   "weaponType": "bullet",
+   "clipSize": "",
+   "boltAction": "",
+   "reloadAnim": "",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "",
+   "measuredAnim": "",
+   "trackFrames": 0,
+   "trackNote": "gun/hand model or reload animation unavailable",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "class 'turret' / type 'bullet' has no reload"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no reload to perform"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in "
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in "
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "loadZoneM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "supportGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "triggerGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "mg42_tiger_tank",
+   "weaponClass": "turret",
+   "weaponType": "bullet",
+   "clipSize": "",
+   "boltAction": "",
+   "reloadAnim": "",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "",
+   "measuredAnim": "",
+   "trackFrames": 0,
+   "trackNote": "gun/hand model or reload animation unavailable",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "class 'turret' / type 'bullet' has no reload"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no reload to perform"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in "
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in "
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "loadZoneM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "supportGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "triggerGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "mk1britishfrag",
+   "weaponClass": "grenade",
+   "weaponType": "grenade",
+   "clipSize": "10",
+   "boltAction": "",
+   "reloadAnim": "",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "",
+   "measuredAnim": "",
+   "trackFrames": 0,
+   "trackNote": "gun/hand model or reload animation unavailable",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "class 'grenade' / type 'grenade' has no reload"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no reload to perform"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in "
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in "
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "loadZoneM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "supportGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "triggerGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "mosin_nagant",
+   "weaponClass": "rifle",
+   "weaponType": "bullet",
+   "clipSize": "5",
+   "boltAction": "1",
+   "reloadAnim": "viewmodel_mosinnagant_reload",
+   "reloadEmptyAnim": "viewmodel_mosinnagant_reload",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2.4",
+   "reloadEmptyTime": "2.4",
+   "reloadAddTime": "1.47",
+   "measuredAnim": "viewmodel_mosinnagant_reload",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "TRIGGER",
+    "confidence": "PROVEN",
+    "evidence": "trigger hand travels 0.229 m vs the support hand's 0.032 m"
+   },
+   "supportReachM": {
+    "value": 0.03241,
+    "confidence": "STRONG",
+    "evidence": "peak support-hand excursion in viewmodel_mosinnagant_reload"
+   },
+   "triggerReachM": {
+    "value": 0.22918,
+    "confidence": "PROVEN",
+    "evidence": "peak trigger-hand excursion in viewmodel_mosinnagant_reload"
+   },
+   "loadReachM": {
+    "value": 0.22918,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the trigger hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     -0.03216,
+     -0.04021,
+     -0.05913
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_mosinnagant_reload"
+   },
+   "loadZoneM": {
+    "value": [
+     0.12696,
+     -0.08693,
+     0.09906
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 42 of viewmodel_mosinnagant_reload"
+   },
+   "supportGripM": {
+    "value": [
+     0.34581,
+     0.0201,
+     -0.1078
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_mosinnagant_reload"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.03216,
+     -0.04021,
+     -0.05913
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_mosinnagant_reload"
+   },
+   "magazineType": {
+    "value": "STRIPPER_CLIP",
+    "confidence": "STRONG",
+    "evidence": "bolt-action with clipSize 5, loaded by the trigger hand"
+   },
+   "ammoAddFrac": {
+    "value": 0.6125,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "mosin_nagant_sniper",
+   "weaponClass": "rifle",
+   "weaponType": "bullet",
+   "clipSize": "5",
+   "boltAction": "1",
+   "reloadAnim": "viewmodel_mosinnagantscoped_reloadinsert",
+   "reloadEmptyAnim": "viewmodel_mosinnagantscoped_reloadinsert",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2.5",
+   "reloadEmptyTime": "2.5",
+   "reloadAddTime": "1.5",
+   "measuredAnim": "viewmodel_mosinnagantscoped_reloadinsert",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "TRIGGER",
+    "confidence": "PROVEN",
+    "evidence": "trigger hand travels 0.213 m vs the support hand's 0.033 m"
+   },
+   "supportReachM": {
+    "value": 0.03308,
+    "confidence": "STRONG",
+    "evidence": "peak support-hand excursion in viewmodel_mosinnagantscoped_reloadinsert"
+   },
+   "triggerReachM": {
+    "value": 0.21285,
+    "confidence": "PROVEN",
+    "evidence": "peak trigger-hand excursion in viewmodel_mosinnagantscoped_reloadinsert"
+   },
+   "loadReachM": {
+    "value": 0.21285,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the trigger hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     -0.02684,
+     -0.04033,
+     -0.04082
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_mosinnagantscoped_reloadinsert"
+   },
+   "loadZoneM": {
+    "value": [
+     0.1278,
+     -0.08411,
+     0.09873
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 42 of viewmodel_mosinnagantscoped_reloadinsert"
+   },
+   "supportGripM": {
+    "value": [
+     0.35208,
+     0.03373,
+     -0.08604
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_mosinnagantscoped_reloadinsert"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.02684,
+     -0.04033,
+     -0.04082
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_mosinnagantscoped_reloadinsert"
+   },
+   "magazineType": {
+    "value": "STRIPPER_CLIP",
+    "confidence": "STRONG",
+    "evidence": "bolt-action with clipSize 5, loaded by the trigger hand"
+   },
+   "ammoAddFrac": {
+    "value": 0.6,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "mp40",
+   "weaponClass": "smg",
+   "weaponType": "bullet",
+   "clipSize": "32",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_mp40_reload",
+   "reloadEmptyAnim": "viewmodel_mp40_reload_empty",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2",
+   "reloadEmptyTime": "2.4",
+   "reloadAddTime": "1.77",
+   "measuredAnim": "viewmodel_mp40_reload_empty",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "SUPPORT",
+    "confidence": "PROVEN",
+    "evidence": "support hand travels 0.572 m vs the trigger hand's 0.059 m"
+   },
+   "supportReachM": {
+    "value": 0.57158,
+    "confidence": "PROVEN",
+    "evidence": "peak support-hand excursion in viewmodel_mp40_reload_empty"
+   },
+   "triggerReachM": {
+    "value": 0.0591,
+    "confidence": "STRONG",
+    "evidence": "peak trigger-hand excursion in viewmodel_mp40_reload_empty"
+   },
+   "loadReachM": {
+    "value": 0.57158,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     0.23072,
+     0.04153,
+     -0.11108
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_mp40_reload_empty"
+   },
+   "loadZoneM": {
+    "value": [
+     -0.05498,
+     -0.10349,
+     -0.58442
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 26 of viewmodel_mp40_reload_empty"
+   },
+   "supportGripM": {
+    "value": [
+     0.23072,
+     0.04153,
+     -0.11108
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_mp40_reload_empty"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.06536,
+     -0.04402,
+     -0.09959
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_mp40_reload_empty"
+   },
+   "magazineType": {
+    "value": "DETACHABLE",
+    "confidence": "PROVEN",
+    "evidence": "single motion performed by the support hand, which travels 0.572 m away from the weapon to fetch it"
+   },
+   "ammoAddFrac": {
+    "value": 0.7375,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "mp44",
+   "weaponClass": "rifle",
+   "weaponType": "bullet",
+   "clipSize": "30",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_mp44_reload",
+   "reloadEmptyAnim": "viewmodel_mp44_reload_empty",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2.1",
+   "reloadEmptyTime": "2.67",
+   "reloadAddTime": "1.5",
+   "measuredAnim": "viewmodel_mp44_reload_empty",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "SUPPORT",
+    "confidence": "PROVEN",
+    "evidence": "support hand travels 0.690 m vs the trigger hand's 0.028 m"
+   },
+   "supportReachM": {
+    "value": 0.69025,
+    "confidence": "PROVEN",
+    "evidence": "peak support-hand excursion in viewmodel_mp44_reload_empty"
+   },
+   "triggerReachM": {
+    "value": 0.02812,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in viewmodel_mp44_reload_empty"
+   },
+   "loadReachM": {
+    "value": 0.69025,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     0.29408,
+     0.02532,
+     -0.07957
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_mp44_reload_empty"
+   },
+   "loadZoneM": {
+    "value": [
+     -0.01289,
+     -0.04088,
+     -0.69425
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 14 of viewmodel_mp44_reload_empty"
+   },
+   "supportGripM": {
+    "value": [
+     0.29408,
+     0.02532,
+     -0.07957
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_mp44_reload_empty"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.04333,
+     -0.0391,
+     -0.11127
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_mp44_reload_empty"
+   },
+   "magazineType": {
+    "value": "DETACHABLE",
+    "confidence": "PROVEN",
+    "evidence": "single motion performed by the support hand, which travels 0.690 m away from the weapon to fetch it"
+   },
+   "ammoAddFrac": {
+    "value": 0.5618,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "mp44_semi",
+   "weaponClass": "rifle",
+   "weaponType": "bullet",
+   "clipSize": "30",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_mp44_reload",
+   "reloadEmptyAnim": "viewmodel_mp44_reload_empty",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2.1",
+   "reloadEmptyTime": "2.67",
+   "reloadAddTime": "1.5",
+   "measuredAnim": "viewmodel_mp44_reload_empty",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "SUPPORT",
+    "confidence": "PROVEN",
+    "evidence": "support hand travels 0.690 m vs the trigger hand's 0.028 m"
+   },
+   "supportReachM": {
+    "value": 0.69025,
+    "confidence": "PROVEN",
+    "evidence": "peak support-hand excursion in viewmodel_mp44_reload_empty"
+   },
+   "triggerReachM": {
+    "value": 0.02812,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in viewmodel_mp44_reload_empty"
+   },
+   "loadReachM": {
+    "value": 0.69025,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     0.29408,
+     0.02532,
+     -0.07957
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_mp44_reload_empty"
+   },
+   "loadZoneM": {
+    "value": [
+     -0.01289,
+     -0.04088,
+     -0.69425
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 14 of viewmodel_mp44_reload_empty"
+   },
+   "supportGripM": {
+    "value": [
+     0.29408,
+     0.02532,
+     -0.07957
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_mp44_reload_empty"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.04333,
+     -0.0391,
+     -0.11127
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_mp44_reload_empty"
+   },
+   "magazineType": {
+    "value": "DETACHABLE",
+    "confidence": "PROVEN",
+    "evidence": "single motion performed by the support hand, which travels 0.690 m away from the weapon to fetch it"
+   },
+   "ammoAddFrac": {
+    "value": 0.5618,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "panzerfaust",
+   "weaponClass": "rocketlauncher",
+   "weaponType": "projectile",
+   "clipSize": "1",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_panzerfaust_idle",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "0",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "0",
+   "measuredAnim": "viewmodel_panzerfaust_idle",
+   "trackFrames": 2,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "SINGLE_SHOT",
+    "confidence": "STRONG",
+    "evidence": "clipSize 1, and the game's reloadAnim is the idle 'viewmodel_panzerfaust_idle': nothing is reloaded in view"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no loading motion is animated"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in viewmodel_panzerfaust_idle"
+   },
+   "triggerReachM": {
+    "value": 0.00107,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in viewmodel_panzerfaust_idle"
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     0.06099,
+     0.03216,
+     -0.09037
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_panzerfaust_idle"
+   },
+   "loadZoneM": {
+    "value": [
+     0.06099,
+     0.03216,
+     -0.09037
+    ],
+    "confidence": "WEAK",
+    "evidence": "loading-hand extremum at frame 0 of viewmodel_panzerfaust_idle"
+   },
+   "supportGripM": {
+    "value": [
+     0.06099,
+     0.03216,
+     -0.09037
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_panzerfaust_idle"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.08802,
+     -0.37514,
+     -0.39697
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_panzerfaust_idle"
+   },
+   "magazineType": {
+    "value": "SINGLE",
+    "confidence": "STRONG",
+    "evidence": "one projectile, carried by the weapon itself"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "panzeriv_turret",
+   "weaponClass": "non-player",
+   "weaponType": "projectile",
+   "clipSize": "",
+   "boltAction": "",
+   "reloadAnim": "",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "",
+   "measuredAnim": "",
+   "trackFrames": 0,
+   "trackNote": "gun/hand model or reload animation unavailable",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "class 'non-player' / type 'projectile' has no reload"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no reload to perform"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in "
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in "
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "loadZoneM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "supportGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "triggerGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "ppsh",
+   "weaponClass": "smg",
+   "weaponType": "bullet",
+   "clipSize": "71",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_ppsh_reload_notempty",
+   "reloadEmptyAnim": "viewmodel_ppsh_reload",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "1.83",
+   "reloadEmptyTime": "2.57",
+   "reloadAddTime": "1.33",
+   "measuredAnim": "viewmodel_ppsh_reload",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "SUPPORT",
+    "confidence": "PROVEN",
+    "evidence": "support hand travels 0.381 m vs the trigger hand's 0.030 m"
+   },
+   "supportReachM": {
+    "value": 0.38085,
+    "confidence": "PROVEN",
+    "evidence": "peak support-hand excursion in viewmodel_ppsh_reload"
+   },
+   "triggerReachM": {
+    "value": 0.02967,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in viewmodel_ppsh_reload"
+   },
+   "loadReachM": {
+    "value": 0.38085,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     0.06101,
+     0.14372,
+     -0.09503
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_ppsh_reload"
+   },
+   "loadZoneM": {
+    "value": [
+     0.08811,
+     0.35098,
+     -0.41339
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 28 of viewmodel_ppsh_reload"
+   },
+   "supportGripM": {
+    "value": [
+     0.06101,
+     0.14372,
+     -0.09503
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_ppsh_reload"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.20701,
+     -0.04444,
+     -0.04855
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_ppsh_reload"
+   },
+   "magazineType": {
+    "value": "DETACHABLE",
+    "confidence": "PROVEN",
+    "evidence": "single motion performed by the support hand, which travels 0.381 m away from the weapon to fetch it"
+   },
+   "ammoAddFrac": {
+    "value": 0.5175,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "ppsh_semi",
+   "weaponClass": "smg",
+   "weaponType": "bullet",
+   "clipSize": "71",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_ppsh_reload_notempty",
+   "reloadEmptyAnim": "viewmodel_ppsh_reload",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "1.83",
+   "reloadEmptyTime": "2.57",
+   "reloadAddTime": "1.33",
+   "measuredAnim": "viewmodel_ppsh_reload",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "SUPPORT",
+    "confidence": "PROVEN",
+    "evidence": "support hand travels 0.381 m vs the trigger hand's 0.030 m"
+   },
+   "supportReachM": {
+    "value": 0.38085,
+    "confidence": "PROVEN",
+    "evidence": "peak support-hand excursion in viewmodel_ppsh_reload"
+   },
+   "triggerReachM": {
+    "value": 0.02967,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in viewmodel_ppsh_reload"
+   },
+   "loadReachM": {
+    "value": 0.38085,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     0.06101,
+     0.14372,
+     -0.09503
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_ppsh_reload"
+   },
+   "loadZoneM": {
+    "value": [
+     0.08811,
+     0.35098,
+     -0.41339
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 28 of viewmodel_ppsh_reload"
+   },
+   "supportGripM": {
+    "value": [
+     0.06101,
+     0.14372,
+     -0.09503
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_ppsh_reload"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.20701,
+     -0.04444,
+     -0.04855
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_ppsh_reload"
+   },
+   "magazineType": {
+    "value": "DETACHABLE",
+    "confidence": "PROVEN",
+    "evidence": "single motion performed by the support hand, which travels 0.381 m away from the weapon to fetch it"
+   },
+   "ammoAddFrac": {
+    "value": 0.5175,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "ptrs41_antitank_rifle",
+   "weaponClass": "turret",
+   "weaponType": "projectile",
+   "clipSize": "",
+   "boltAction": "",
+   "reloadAnim": "",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "",
+   "measuredAnim": "",
+   "trackFrames": 0,
+   "trackNote": "gun/hand model or reload animation unavailable",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "class 'turret' / type 'projectile' has no reload"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no reload to perform"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in "
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in "
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "loadZoneM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "supportGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "triggerGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "rgd-33russianfrag",
+   "weaponClass": "grenade",
+   "weaponType": "grenade",
+   "clipSize": "10",
+   "boltAction": "",
+   "reloadAnim": "",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "",
+   "measuredAnim": "",
+   "trackFrames": 0,
+   "trackNote": "gun/hand model or reload animation unavailable",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "class 'grenade' / type 'grenade' has no reload"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no reload to perform"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in "
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in "
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "loadZoneM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "supportGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "triggerGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "springfield",
+   "weaponClass": "rifle",
+   "weaponType": "bullet",
+   "clipSize": "5",
+   "boltAction": "1",
+   "reloadAnim": "viewmodel_springfield_reload_loop",
+   "reloadEmptyAnim": "viewmodel_springfield_reload_loop",
+   "reloadStartAnim": "viewmodel_springfield_reload_start",
+   "reloadEndAnim": "viewmodel_springfield_reload_end",
+   "reloadTime": "0.6",
+   "reloadEmptyTime": "0.6",
+   "reloadAddTime": "0.2",
+   "measuredAnim": "viewmodel_springfield_reload_start",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "INCREMENTAL",
+    "confidence": "PROVEN",
+    "evidence": "reloadStartAnim+reloadEndAnim present and reloadStart/EndTime nonzero -- the engine repeats one feeding motion per round"
+   },
+   "loadHand": {
+    "value": "TRIGGER",
+    "confidence": "PROVEN",
+    "evidence": "trigger hand travels 0.125 m vs the support hand's 0.015 m"
+   },
+   "supportReachM": {
+    "value": 0.01456,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in viewmodel_springfield_reload_start"
+   },
+   "triggerReachM": {
+    "value": 0.12518,
+    "confidence": "PROVEN",
+    "evidence": "peak trigger-hand excursion in viewmodel_springfield_reload_start"
+   },
+   "loadReachM": {
+    "value": 0.12518,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the trigger hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     -0.02969,
+     -0.04047,
+     -0.04704
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_springfield_reload_start"
+   },
+   "loadZoneM": {
+    "value": [
+     -0.09275,
+     -0.11939,
+     0.02689
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 31 of viewmodel_springfield_reload_start"
+   },
+   "supportGripM": {
+    "value": [
+     0.35209,
+     0.03524,
+     -0.07838
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_springfield_reload_start"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.02969,
+     -0.04047,
+     -0.04704
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_springfield_reload_start"
+   },
+   "magazineType": {
+    "value": "LOOSE_ROUNDS",
+    "confidence": "PROVEN",
+    "evidence": "the engine feeds one round per loop iteration"
+   },
+   "ammoAddFrac": {
+    "value": 0.3333,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "stalingrad_ammo",
+   "weaponClass": "rifle",
+   "weaponType": "bullet",
+   "clipSize": "5",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_ammo_idle",
+   "reloadEmptyAnim": "viewmodel_ammo_idle",
+   "reloadStartAnim": "viewmodel_ammo_idle",
+   "reloadEndAnim": "viewmodel_ammo_idle",
+   "reloadTime": "2",
+   "reloadEmptyTime": "2",
+   "reloadAddTime": "0",
+   "measuredAnim": "viewmodel_ammo_idle",
+   "trackFrames": 4,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "STRONG",
+    "evidence": "reloadAnim 'viewmodel_ammo_idle' is an idle -- this entry does not reload in view"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no loading motion is animated"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in viewmodel_ammo_idle"
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in viewmodel_ammo_idle"
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     0.11147,
+     -0.37639,
+     0.14422
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_ammo_idle"
+   },
+   "loadZoneM": {
+    "value": [
+     0.11147,
+     -0.37639,
+     0.14422
+    ],
+    "confidence": "WEAK",
+    "evidence": "loading-hand extremum at frame 0 of viewmodel_ammo_idle"
+   },
+   "supportGripM": {
+    "value": [
+     0.11147,
+     -0.37639,
+     0.14422
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_ammo_idle"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.10517,
+     0.19171,
+     0.16869
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_ammo_idle"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "sten",
+   "weaponClass": "smg",
+   "weaponType": "bullet",
+   "clipSize": "32",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_sten_reload",
+   "reloadEmptyAnim": "viewmodel_sten_reload_empty",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2.5",
+   "reloadEmptyTime": "3",
+   "reloadAddTime": "2.5",
+   "measuredAnim": "viewmodel_sten_reload_empty",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "SUPPORT",
+    "confidence": "PROVEN",
+    "evidence": "support hand travels 0.602 m vs the trigger hand's 0.013 m"
+   },
+   "supportReachM": {
+    "value": 0.6022,
+    "confidence": "PROVEN",
+    "evidence": "peak support-hand excursion in viewmodel_sten_reload_empty"
+   },
+   "triggerReachM": {
+    "value": 0.01303,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in viewmodel_sten_reload_empty"
+   },
+   "loadReachM": {
+    "value": 0.6022,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     0.21527,
+     0.12118,
+     0.02588
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_sten_reload_empty"
+   },
+   "loadZoneM": {
+    "value": [
+     0.15203,
+     0.69219,
+     -0.15467
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 34 of viewmodel_sten_reload_empty"
+   },
+   "supportGripM": {
+    "value": [
+     0.21527,
+     0.12118,
+     0.02588
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_sten_reload_empty"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.06575,
+     -0.04429,
+     -0.09958
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_sten_reload_empty"
+   },
+   "magazineType": {
+    "value": "DETACHABLE",
+    "confidence": "PROVEN",
+    "evidence": "single motion performed by the support hand, which travels 0.602 m away from the weapon to fetch it"
+   },
+   "ammoAddFrac": {
+    "value": 0.8333,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "sten_engineer",
+   "weaponClass": "smg",
+   "weaponType": "bullet",
+   "clipSize": "32",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_sten_reload",
+   "reloadEmptyAnim": "viewmodel_sten_reload_empty",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2.5",
+   "reloadEmptyTime": "3",
+   "reloadAddTime": "2.5",
+   "measuredAnim": "viewmodel_sten_reload_empty",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "SUPPORT",
+    "confidence": "PROVEN",
+    "evidence": "support hand travels 0.602 m vs the trigger hand's 0.013 m"
+   },
+   "supportReachM": {
+    "value": 0.6022,
+    "confidence": "PROVEN",
+    "evidence": "peak support-hand excursion in viewmodel_sten_reload_empty"
+   },
+   "triggerReachM": {
+    "value": 0.01303,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in viewmodel_sten_reload_empty"
+   },
+   "loadReachM": {
+    "value": 0.6022,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     0.21527,
+     0.12118,
+     0.02588
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_sten_reload_empty"
+   },
+   "loadZoneM": {
+    "value": [
+     0.15203,
+     0.69219,
+     -0.15467
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 34 of viewmodel_sten_reload_empty"
+   },
+   "supportGripM": {
+    "value": [
+     0.21527,
+     0.12118,
+     0.02588
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_sten_reload_empty"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.06575,
+     -0.04429,
+     -0.09958
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_sten_reload_empty"
+   },
+   "magazineType": {
+    "value": "DETACHABLE",
+    "confidence": "PROVEN",
+    "evidence": "single motion performed by the support hand, which travels 0.602 m away from the weapon to fetch it"
+   },
+   "ammoAddFrac": {
+    "value": 0.8333,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "stielhandgranate",
+   "weaponClass": "grenade",
+   "weaponType": "grenade",
+   "clipSize": "10",
+   "boltAction": "",
+   "reloadAnim": "",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "2",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "",
+   "measuredAnim": "",
+   "trackFrames": 0,
+   "trackNote": "gun/hand model or reload animation unavailable",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "class 'grenade' / type 'grenade' has no reload"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no reload to perform"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in "
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in "
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "loadZoneM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "supportGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "triggerGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "stuka_guns",
+   "weaponClass": "turret",
+   "weaponType": "bullet",
+   "clipSize": "",
+   "boltAction": "",
+   "reloadAnim": "",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "",
+   "measuredAnim": "",
+   "trackFrames": 0,
+   "trackNote": "gun/hand model or reload animation unavailable",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "class 'turret' / type 'bullet' has no reload"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no reload to perform"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in "
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in "
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "loadZoneM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "supportGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "triggerGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "t34_turret",
+   "weaponClass": "non-player",
+   "weaponType": "projectile",
+   "clipSize": "",
+   "boltAction": "",
+   "reloadAnim": "",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "",
+   "measuredAnim": "",
+   "trackFrames": 0,
+   "trackNote": "gun/hand model or reload animation unavailable",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "class 'non-player' / type 'projectile' has no reload"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no reload to perform"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in "
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in "
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "loadZoneM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "supportGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "triggerGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  },
+  {
+   "weapon": "thompson",
+   "weaponClass": "smg",
+   "weaponType": "bullet",
+   "clipSize": "30",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_thompson_reload",
+   "reloadEmptyAnim": "viewmodel_thompson_reload_empty",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "1.4",
+   "reloadEmptyTime": "2.2",
+   "reloadAddTime": "1.65",
+   "measuredAnim": "viewmodel_thompson_reload_empty",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "SUPPORT",
+    "confidence": "PROVEN",
+    "evidence": "support hand travels 0.441 m vs the trigger hand's 0.028 m"
+   },
+   "supportReachM": {
+    "value": 0.44129,
+    "confidence": "PROVEN",
+    "evidence": "peak support-hand excursion in viewmodel_thompson_reload_empty"
+   },
+   "triggerReachM": {
+    "value": 0.02849,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in viewmodel_thompson_reload_empty"
+   },
+   "loadReachM": {
+    "value": 0.44129,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     0.18186,
+     0.01533,
+     -0.05491
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_thompson_reload_empty"
+   },
+   "loadZoneM": {
+    "value": [
+     0.13208,
+     0.01657,
+     -0.49338
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 18 of viewmodel_thompson_reload_empty"
+   },
+   "supportGripM": {
+    "value": [
+     0.18186,
+     0.01533,
+     -0.05491
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_thompson_reload_empty"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.11566,
+     -0.04208,
+     -0.07315
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_thompson_reload_empty"
+   },
+   "magazineType": {
+    "value": "DETACHABLE",
+    "confidence": "PROVEN",
+    "evidence": "single motion performed by the support hand, which travels 0.441 m away from the weapon to fetch it"
+   },
+   "ammoAddFrac": {
+    "value": 0.75,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "thompson_semi",
+   "weaponClass": "smg",
+   "weaponType": "bullet",
+   "clipSize": "30",
+   "boltAction": "0",
+   "reloadAnim": "viewmodel_thompson_reload",
+   "reloadEmptyAnim": "viewmodel_thompson_reload_empty",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "1.4",
+   "reloadEmptyTime": "2.2",
+   "reloadAddTime": "1.65",
+   "measuredAnim": "viewmodel_thompson_reload_empty",
+   "trackFrames": 33,
+   "trackNote": "",
+   "reloadClass": {
+    "value": "MAGAZINE",
+    "confidence": "PROVEN",
+    "evidence": "one reload motion, no start/end loop -- a magazine or clip is swapped whole"
+   },
+   "loadHand": {
+    "value": "SUPPORT",
+    "confidence": "PROVEN",
+    "evidence": "support hand travels 0.441 m vs the trigger hand's 0.028 m"
+   },
+   "supportReachM": {
+    "value": 0.44129,
+    "confidence": "PROVEN",
+    "evidence": "peak support-hand excursion in viewmodel_thompson_reload_empty"
+   },
+   "triggerReachM": {
+    "value": 0.02849,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in viewmodel_thompson_reload_empty"
+   },
+   "loadReachM": {
+    "value": 0.44129,
+    "confidence": "PROVEN",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": [
+     0.18186,
+     0.01533,
+     -0.05491
+    ],
+    "confidence": "STRONG",
+    "evidence": "loading hand at frame 0 of viewmodel_thompson_reload_empty"
+   },
+   "loadZoneM": {
+    "value": [
+     0.13208,
+     0.01657,
+     -0.49338
+    ],
+    "confidence": "PROVEN",
+    "evidence": "loading-hand extremum at frame 18 of viewmodel_thompson_reload_empty"
+   },
+   "supportGripM": {
+    "value": [
+     0.18186,
+     0.01533,
+     -0.05491
+    ],
+    "confidence": "STRONG",
+    "evidence": "support hand at frame 0 of viewmodel_thompson_reload_empty"
+   },
+   "triggerGripM": {
+    "value": [
+     -0.11566,
+     -0.04208,
+     -0.07315
+    ],
+    "confidence": "STRONG",
+    "evidence": "trigger hand at frame 0 of viewmodel_thompson_reload_empty"
+   },
+   "magazineType": {
+    "value": "DETACHABLE",
+    "confidence": "PROVEN",
+    "evidence": "single motion performed by the support hand, which travels 0.441 m away from the weapon to fetch it"
+   },
+   "ammoAddFrac": {
+    "value": 0.75,
+    "confidence": "PROVEN",
+    "evidence": "reloadAddTime / reloadEmptyTime from the weapon file"
+   }
+  },
+  {
+   "weapon": "tiger_turret",
+   "weaponClass": "non-player",
+   "weaponType": "projectile",
+   "clipSize": "",
+   "boltAction": "",
+   "reloadAnim": "",
+   "reloadEmptyAnim": "",
+   "reloadStartAnim": "",
+   "reloadEndAnim": "",
+   "reloadTime": "",
+   "reloadEmptyTime": "",
+   "reloadAddTime": "",
+   "measuredAnim": "",
+   "trackFrames": 0,
+   "trackNote": "gun/hand model or reload animation unavailable",
+   "reloadClass": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "class 'non-player' / type 'projectile' has no reload"
+   },
+   "loadHand": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "no reload to perform"
+   },
+   "supportReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak support-hand excursion in "
+   },
+   "triggerReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "peak trigger-hand excursion in "
+   },
+   "loadReachM": {
+    "value": 0.0,
+    "confidence": "WEAK",
+    "evidence": "excursion of the support hand, which performs this reload"
+   },
+   "gripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "loadZoneM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "supportGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "triggerGripM": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "gun/hand model or reload animation unavailable"
+   },
+   "magazineType": {
+    "value": "NONE",
+    "confidence": "NA",
+    "evidence": "nothing is loaded"
+   },
+   "ammoAddFrac": {
+    "value": null,
+    "confidence": "UNKNOWN",
+    "evidence": "weapon file gives no reloadAddTime"
+   }
+  }
+ ]
+}

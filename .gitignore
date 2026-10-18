@@ -1,0 +1,35 @@
+# --- Local research and run output: never published ---
+logs/
+runs/
+checkpoints/
+quarantine/
+generated-images/
+.remember/
+
+# --- Build output (the shipping binaries live in dist/) ---
+# Scoped to the build directory deliberately: a bare *.lib would also swallow
+# the vendored OpenXR import libraries under third_party/, which the link step
+# needs, and a fresh clone would fail with "missing prerequisite".
+build/
+
+# --- Python scratch ---
+__pycache__/
+*.pyc
+
+# --- Editor / OS ---
+.vs/
+*.user
+Thumbs.db
+desktop.ini
+
+# --- Reinterpreted material textures: not published ---
+assets/
+
+# --- Local run artefacts in dist/; the rest of dist/ IS the install payload ---
+dist/snapshots/
+dist/codvr_result.log
+dist/codvr_ingame.marker
+dist/deploy-provenance.json
+
+# --- Redundant: build.ps1 uses the extracted SDK beside it ---
+third_party/openxr.zip

@@ -1,0 +1,427 @@
+=== COD VR camera probe ===
+host: H:\SteamLibrary\steamapps\common\Call of Duty\CoDSP.exe  pid 43476
+resolved 368/368 exports from C:\WINDOWS\system32\opengl32.dll
+config: renderSyscall = 71
+config: worldscale = 39.37 units/metre
+config: probe mode = 0
+VR: runtime VirtualDesktopXR
+VR: headset detected, creating session
+VR: per-eye 3072x3264, swapchain format 0x8058
+VR: session created
+VR: session state -> 1
+VR: session state -> 2
+VR: session begun
+VR: ACTIVE - stereo submission running (running)
+VR: rendering via syscall 71
+VR: GL blit path available
+VR: first blit - dst FBO status 0x8CD5 (COMPLETE), src 0,0..2560,1440 -> 3072x3264
+VR: first blit completed with no GL error
+VR: back buffer 2560x1440 (from window), stereo=0
+VR: session state -> 3
+VR: session state -> 4
+VR: session state -> 5
+cgame @ 443F0000 hooked (slot 444557E8, engine syscall 0044F040)
+experiment starts on the first rendered scene; ~30s of play needed
+
+======= SCENE GEOMETRY (first scene) =======
+  [game's own] refdef x=0 y=0 w=2560 h=1440  fov 96.42 x 64.37
+  [game's own] GL viewport 0,0 2560x1440   scissor 0,0 2560x1440
+===========================================
+
+======= SCENE CAPTURE (one scene) =======
+  181 captures, 0 of them entity-shaped
+  syscall   7: 166 captured, 0 entity-shaped (skipped)
+  syscall  37: 2 captured, 0 entity-shaped (skipped)
+  syscall  38: 12 captured, 0 entity-shaped (skipped)
+  syscall  61: 1 captured, 0 entity-shaped (skipped)
+
+  NOTHING looked like a Quake 3 entity. Raw bytes of the first
+  capture of each candidate follow; the real layout is in here.
+  --- syscall 7, first argument, 64 bytes ---
+    +00  int         491           1           0           0
+         flt       0.000       0.000       0.000       0.000
+    +16  int          48           0           0           0
+         flt       0.000       0.000       0.000       0.000
+    +32  int           0           0           0           0
+         flt       0.000       0.000       0.000       0.000
+    +48  int           0           0           0           0
+         flt       0.000       0.000       0.000       0.000
+    orthonormal 3x3 found at byte offset: -1
+  --- syscall 61, first argument, 64 bytes ---
+    +00  int  1926768127  -859016527  -858993460  -858993460
+         flt 8562521162264244209093930123264.000 -107189640.000 -107374176.000 -107374176.000
+    +16  int -1957298293   410386412 -2096605813  1979647169
+         flt      -0.000       0.000      -0.000 646548886523516066881898392059904.000
+    +32  int   276168468  -401836545          10     1360477
+         flt       0.000 -2653231805379416076320768.000       0.000       0.000
+    +48  int  -858993460    -7615284  1374456661 -1982231725
+         flt -107374176.000        -nan 126993735680.000      -0.000
+    orthonormal 3x3 found at byte offset: -1
+  --- syscall 37, first argument, 64 bytes ---
+    +00  int -1010401389  1172494598 -1009538401 -1086519395
+         flt    -396.997    7259.128    -423.333      -0.738
+    +16  int -1090644744 -1091974645  1057934336 -1084982975
+         flt      -0.496      -0.457       0.558      -0.830
+    +32  int           0 -1094579699 -1098749857  1063502052
+         flt       0.000      -0.379      -0.255       0.890
+    +48  int           0           0  1104763520 -1022224224
+         flt       0.000       0.000      27.169    -146.096
+    orthonormal 3x3 found at byte offset: 12
+  --- syscall 38, first argument, 64 bytes ---
+    +00  int -1010401389  1172494598 -1009538401 -1086519395
+         flt    -396.997    7259.128    -423.333      -0.738
+    +16  int -1090644744 -1091974645  1057934336 -1084982975
+         flt      -0.496      -0.457       0.558      -0.830
+    +32  int           0 -1094579699 -1098749857  1063502052
+         flt       0.000      -0.379      -0.255       0.890
+    +48  int           0           0  1104763520 -1022224224
+         flt       0.000       0.000      27.169    -146.096
+    orthonormal 3x3 found at byte offset: 12
+========================================
+
+=== SCENE GEOMETRY (first stereo scene) ===
+  back buffer believed to be 2560x1440
+  [before] refdef x=0 y=0 w=2560 h=1440  fov 96.42 x 64.37
+  [before] GL viewport 0,0 2560x1440   scissor 0,0 2560x1440
+VR: head neutral point latched at 1.9 -0.9 -62711.9 units (raw pose 0.022 -1592.886 -0.048 m)
+  we wrote for eye 0: x=0 w=1280  fov 108.00 x 114.29
+  [after eye0] refdef x=0 y=0 w=1280 h=1440  fov 108.00 x 114.29
+  [after eye0] GL viewport 0,0 2560x1440   scissor 0,0 2560x1440
+VR: game eye origin -397.0 7259.1 -423.3 -> eye1 origin -398.3 7261.2 -423.3 (offset -1.3 2.1 0.0)
+  we wrote for eye 1: x=1280 w=1280  fov 108.00 x 114.29
+  [after eye1] refdef x=1280 y=0 w=1280 h=1440  fov 108.00 x 114.29
+  [after eye1] GL viewport 0,0 2560x1440   scissor 0,0 2560x1440
+==========================================
+
+======= SINGLE-FRAME CALL ORDER (11377 calls) =======
+  [  0] syscall   7 x166      (bulk: scene building)
+  [  1] syscall  61 x1     
+  [  2] syscall  82 x1     
+  [  3] syscall  83 x1     
+  [  4] syscall 146 x1     
+  [  5] syscall  10 x1     
+  [  6] syscall  81 x1     
+  [  7] syscall 248 x29       (bulk: scene building)
+  [  8] syscall 252 x1     
+  [  9] syscall  85 x1     
+  [ 10] syscall  86 x66       (bulk: scene building)
+  [ 11] syscall  37 x1     
+  [ 12] syscall  34 x1     
+  [ 13] syscall  38 x1     
+  [ 14] syscall  34 x1     
+  [ 15] syscall  38 x1     
+  [ 16] syscall  34 x1     
+  [ 17] syscall  38 x1     
+  [ 18] syscall  34 x1     
+  [ 19] syscall  38 x1     
+  [ 20] syscall  34 x1     
+  [ 21] syscall  38 x1     
+  [ 22] syscall  34 x1     
+  [ 23] syscall  38 x1     
+  [ 24] syscall  41 x1     
+  [ 25] syscall  34 x1     
+  [ 26] syscall  42 x1     
+  [ 27] syscall  34 x1     
+  [ 28] syscall  42 x1     
+  [ 29] syscall  43 x1     
+  [ 30] syscall  42 x1     
+  [ 31] syscall  43 x1     
+  [ 32] syscall  42 x1     
+  [ 33] syscall  43 x1     
+  [ 34] syscall  42 x1     
+  [ 35] syscall  43 x1     
+  [ 36] syscall  42 x1     
+  [ 37] syscall  34 x1     
+  [ 38] syscall  42 x1     
+  [ 39] syscall  43 x1     
+  [ 40] syscall  42 x1     
+  [ 41] syscall  43 x1     
+  [ 42] syscall  42 x1     
+  [ 43] syscall  34 x1     
+  [ 44] syscall  42 x1     
+  [ 45] syscall  34 x1     
+  [ 46] syscall  42 x1     
+  [ 47] syscall  34 x1     
+  [ 48] syscall  42 x1     
+  [ 49] syscall  41 x1     
+  [ 50] syscall  34 x1     
+  [ 51] syscall  42 x1     
+  [ 52] syscall  34 x1     
+  [ 53] syscall  42 x1     
+  [ 54] syscall  43 x1     
+  [ 55] syscall  42 x1     
+  [ 56] syscall  43 x1     
+  [ 57] syscall  42 x1     
+  [ 58] syscall  43 x1     
+  [ 59] syscall  42 x1     
+  [ 60] syscall  43 x1     
+  [ 61] syscall  42 x1     
+  [ 62] syscall  34 x1     
+  [ 63] syscall  42 x1     
+  [ 64] syscall  43 x1     
+  [ 65] syscall  42 x1     
+  [ 66] syscall  43 x1     
+  [ 67] syscall  42 x1     
+  [ 68] syscall  34 x1     
+  [ 69] syscall  42 x1     
+  [ 70] syscall  34 x1     
+  [ 71] syscall  42 x1     
+  [ 72] syscall  34 x1     
+  [ 73] syscall  42 x1     
+  [ 74] syscall  37 x1     
+  [ 75] syscall  34 x1     
+  [ 76] syscall  38 x1     
+  [ 77] syscall  34 x1     
+  [ 78] syscall  38 x1     
+  [ 79] syscall  34 x1     
+  [ 80] syscall  38 x1     
+  [ 81] syscall  34 x1     
+  [ 82] syscall  38 x1     
+  [ 83] syscall  34 x1     
+  [ 84] syscall  38 x1     
+  [ 85] syscall  34 x1     
+  [ 86] syscall  38 x1     
+  [ 87] syscall 213 x1     
+  [ 88] syscall 214 x1     
+  [ 89] syscall 250 x1     
+  [ 90] syscall  89 x1     
+  [ 91] syscall 162 x1     
+  [ 92] syscall  37 x1     
+  [ 93] syscall  34 x1     
+  [ 94] syscall  38 x1     
+  [ 95] syscall  34 x1     
+  [ 96] syscall  38 x1     
+  [ 97] syscall  34 x1     
+  [ 98] syscall  38 x1     
+  [ 99] syscall  34 x1     
+  [100] syscall  38 x1     
+  [101] syscall  34 x1     
+  [102] syscall  38 x1     
+  [103] syscall  34 x1     
+  [104] syscall  38 x1     
+  [105] syscall  37 x1     
+  [106] syscall  34 x1     
+  [107] syscall  38 x1     
+  [108] syscall  34 x1     
+  [109] syscall  38 x1     
+  [110] syscall  34 x1     
+  [111] syscall  38 x1     
+  [112] syscall  34 x1     
+  [113] syscall  38 x1     
+  [114] syscall  34 x1     
+  [115] syscall  38 x1     
+  [116] syscall  34 x1     
+  [117] syscall  38 x1     
+  [118] syscall  81 x1     
+  [119] syscall 242 x1     
+  [120] syscall 243 x1        <=== candidate B (243)
+  [121] syscall 146 x1     
+  [122] syscall 162 x5     
+  [123] syscall 147 x1     
+  [124] syscall 162 x1     
+  [125] syscall 147 x1     
+  [126] syscall 162 x1     
+  [127] syscall 147 x1     
+  [128] syscall 162 x1     
+  [129] syscall 147 x1     
+  [130] syscall 162 x1     
+  [131] syscall 147 x1     
+  [132] syscall 162 x7     
+  [133] syscall 147 x1     
+  [134] syscall 162 x3     
+  [135] syscall 147 x1     
+  [136] syscall 162 x1     
+  [137] syscall 147 x1     
+  [138] syscall 162 x10    
+  [139] syscall  62 x1     
+  [140] syscall 235 x1     
+  [141] syscall 162 x1     
+  [142] syscall  62 x1     
+  [143] syscall 162 x1     
+  [144] syscall  62 x1     
+  [145] syscall 162 x1     
+  [146] syscall  62 x1     
+  [147] syscall 162 x1     
+  [148] syscall  62 x1     
+  [149] syscall 162 x1     
+  [150] syscall  62 x1     
+  [151] syscall 162 x1     
+  [152] syscall  62 x1     
+  [153] syscall 162 x1     
+  [154] syscall  62 x1     
+  [155] syscall 162 x1     
+  [156] syscall  62 x1     
+  [157] syscall 162 x1     
+  [158] syscall  62 x1     
+  [159] syscall 162 x1     
+  [160] syscall  62 x1     
+  [161] syscall 162 x1     
+  [162] syscall  62 x1     
+  [163] syscall 162 x1     
+  [164] syscall  62 x1     
+  [165] syscall  81 x1     
+  [166] syscall 190 x1     
+  [167] syscall 192 x1     
+  [168] syscall 162 x1     
+  [169] syscall  81 x1     
+  [170] syscall 190 x1     
+  [171] syscall 192 x1     
+  [172] syscall 162 x1     
+  [173] syscall 177 x1     
+  [174] syscall 138 x2     
+  [175] syscall 143 x2     
+  [176] syscall 147 x1     
+  [177] syscall 169 x1     
+  [178] syscall 149 x1     
+  [179] syscall 171 x1     
+  [180] syscall 148 x1     
+  [181] syscall  62 x1     
+  [182] syscall 174 x1     
+  [183] syscall 157 x1     
+  [184] syscall 238 x1     
+  [185] syscall  87 x1     
+  [186] syscall  88 x1     
+  [187] syscall  71 x1        <=== candidate A (71)
+  [188] syscall 169 x1     
+  [189] syscall 149 x1     
+  [190] syscall 162 x1     
+  [191] syscall 223 x1     
+  [192] syscall 171 x1     
+  [193] syscall 169 x1     
+  [194] syscall 149 x1     
+  [195] syscall 162 x1     
+  [196] syscall 223 x1     
+  [197] syscall 171 x1     
+  [198] syscall 169 x1     
+  [199] syscall 149 x1     
+  [200] syscall 162 x1     
+  [201] syscall 223 x1     
+  [202] syscall 171 x1     
+  [203] syscall 169 x1     
+  [204] syscall 149 x1     
+  [205] syscall 162 x1     
+  [206] syscall 223 x1     
+  [207] syscall 171 x1     
+  [208] syscall 169 x1     
+  [209] syscall 149 x1     
+  [210] syscall 162 x1     
+  [211] syscall 223 x1     
+  [212] syscall 171 x1     
+  [213] syscall  81 x1     
+  [214] syscall  74 x2     
+  [215] syscall  77 x4     
+  [216] syscall  74 x1     
+  [217] syscall  10 x2     
+  [218] syscall 220 x10752    (bulk: scene building)
+  [219] syscall  54 x1     
+  [220] syscall 222 x1     
+  [221] syscall  57 x2     
+  [222] syscall  55 x1     
+  [223] syscall 222 x1     
+  [224] syscall  57 x2     
+  [225] syscall  55 x1     
+  [226] syscall 222 x1     
+  [227] syscall  57 x2     
+  [228] syscall  55 x1     
+  [229] syscall  74 x1     
+  [230] syscall  75 x1     
+  [231] syscall  74 x1     
+  [232] syscall  75 x1     
+  [233] syscall  74 x1     
+  [234] syscall  10 x4     
+  [235] syscall  74 x1     
+  [236] syscall  75 x1     
+  [237] syscall  74 x1     
+  [238] syscall  10 x1     
+  [239] syscall  74 x1     
+  [240] syscall  75 x1     
+  [241] syscall  74 x1     
+  [242] syscall  10 x2     
+  [243] syscall  55 x1     
+  [244] syscall  53 x1     
+  [245] syscall  55 x1     
+  [246] syscall  53 x1     
+  [247] syscall  55 x1     
+  [248] syscall  10 x1     
+  [249] syscall  74 x1     
+  [250] syscall  75 x1     
+  [251] syscall  74 x1     
+  [252] syscall  10 x1     
+  [253] syscall  74 x1     
+  [254] syscall  75 x1     
+  [255] syscall  74 x1     
+  [256] syscall  10 x1     
+  [257] syscall  74 x1     
+  [258] syscall  75 x1     
+  [259] syscall  74 x1     
+  [260] syscall  10 x1     
+  [261] syscall  74 x1     
+  [262] syscall  78 x1     
+  [263] syscall  74 x1     
+  [264] syscall  10 x1     
+  [265] syscall  74 x1     
+  [266] syscall  75 x1     
+  [267] syscall  74 x1     
+  [268] syscall  10 x1     
+  [269] syscall  74 x1     
+  [270] syscall  78 x1     
+  [271] syscall  74 x1     
+  [272] syscall  10 x1     
+  [273] syscall  74 x1     
+  [274] syscall  75 x1     
+  [275] syscall  74 x1     
+  [276] syscall  10 x1     
+  [277] syscall 224 x6     
+  [278] syscall  74 x1     
+  [279] syscall  78 x1     
+  [280] syscall  74 x1     
+  [281] syscall  78 x1     
+  [282] syscall  74 x1     
+  [283] syscall  78 x1     
+  [284] syscall  74 x1     
+  [285] syscall  78 x1     
+  [286] syscall  74 x1     
+  [287] syscall  78 x1     
+  [288] syscall  74 x1     
+  [289] syscall  78 x1     
+  [290] syscall  74 x1     
+  [291] syscall  10 x1     
+  [292] syscall 226 x1     
+  [293] syscall  74 x1     
+  [294] syscall  10 x1     
+  [295] syscall  74 x1     
+  [296] syscall  75 x1     
+  [297] syscall  74 x1     
+  [298] syscall  75 x1     
+  [299] syscall  74 x1     
+  [300] syscall  54 x1     
+  [301] syscall  81 x1     
+  [302] syscall  49 x1     
+  [303] syscall  74 x1     
+  [304] syscall  75 x1     
+  [305] syscall  74 x1     
+  [306] syscall  54 x1     
+  [307] syscall  81 x1     
+  [308] syscall  57 x1     
+  [309] syscall  53 x1     
+  [310] syscall  55 x1     
+  [311] syscall  54 x1     
+  [312] syscall  81 x1     
+  [313] syscall  57 x1     
+  [314] syscall  53 x1     
+  [315] syscall  55 x1     
+  [316] syscall  54 x1     
+  [317] syscall  81 x1     
+  [318] syscall  57 x1     
+  [319] syscall  53 x1     
+  [320] syscall  55 x1     
+  [321] syscall   5 x1     
+  [322] syscall 185 x1     
+  [323] syscall  28 x1     
+  [324] syscall  29 x1     
+  [325] syscall  31 x1     
+  [326] syscall 206 x1     
+  [327] syscall 207 x1     
+  (in id Tech 3 the render call follows the bulk entity adds)
+======= end call order =======
+VR: session state -> 4

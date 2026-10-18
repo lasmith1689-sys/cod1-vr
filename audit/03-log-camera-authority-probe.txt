@@ -1,0 +1,1466 @@
+=== COD VR camera probe ===
+host: H:\SteamLibrary\steamapps\common\Call of Duty\CoDSP.exe  pid 51968
+resolved 368/368 exports from C:\WINDOWS\system32\opengl32.dll
+config: renderSyscall = 71
+config: worldscale = 39.37 units/metre
+config: probe mode = 1
+***********************************************************
+*  PROBE MODE: VR IS DISABLED. The game runs FLAT on the  *
+*  monitor and writes a diagnostic verdict to this log.    *
+*  No headset needed. Set 'probe 0' in codvr.cfg for VR.   *
+***********************************************************
+cgame @ 41A20000 hooked (slot 41A857E8, engine syscall 0044F040)
+experiment starts on the first rendered scene; ~30s of play needed
+
+======= SCENE GEOMETRY (first scene) =======
+  [game's own] refdef x=0 y=0 w=2560 h=1440  fov 96.42 x 64.37
+  [game's own] GL viewport 0,0 2560x1440   scissor 0,0 2560x1440
+===========================================
+
+======= SINGLE-FRAME CALL ORDER (12421 calls) =======
+  [  0] syscall   7 x166      (bulk: scene building)
+  [  1] syscall  61 x1     
+  [  2] syscall  82 x1     
+  [  3] syscall 252 x1     
+  [  4] syscall  85 x1     
+  [  5] syscall  86 x52       (bulk: scene building)
+  [  6] syscall  37 x1     
+  [  7] syscall  34 x1     
+  [  8] syscall  38 x1     
+  [  9] syscall  34 x1     
+  [ 10] syscall  38 x1     
+  [ 11] syscall  34 x1     
+  [ 12] syscall  38 x1     
+  [ 13] syscall  34 x1     
+  [ 14] syscall  38 x1     
+  [ 15] syscall  34 x1     
+  [ 16] syscall  38 x1     
+  [ 17] syscall  34 x1     
+  [ 18] syscall  38 x1     
+  [ 19] syscall  41 x1     
+  [ 20] syscall  34 x1     
+  [ 21] syscall  42 x1     
+  [ 22] syscall  34 x1     
+  [ 23] syscall  42 x1     
+  [ 24] syscall  43 x1     
+  [ 25] syscall  42 x1     
+  [ 26] syscall  43 x1     
+  [ 27] syscall  42 x1     
+  [ 28] syscall  43 x1     
+  [ 29] syscall  42 x1     
+  [ 30] syscall  43 x1     
+  [ 31] syscall  42 x1     
+  [ 32] syscall  34 x1     
+  [ 33] syscall  42 x1     
+  [ 34] syscall  43 x1     
+  [ 35] syscall  42 x1     
+  [ 36] syscall  43 x1     
+  [ 37] syscall  42 x1     
+  [ 38] syscall  34 x1     
+  [ 39] syscall  42 x1     
+  [ 40] syscall  34 x1     
+  [ 41] syscall  42 x1     
+  [ 42] syscall  34 x1     
+  [ 43] syscall  42 x1     
+  [ 44] syscall  41 x1     
+  [ 45] syscall  34 x1     
+  [ 46] syscall  42 x1     
+  [ 47] syscall  34 x1     
+  [ 48] syscall  42 x1     
+  [ 49] syscall  43 x1     
+  [ 50] syscall  42 x1     
+  [ 51] syscall  43 x1     
+  [ 52] syscall  42 x1     
+  [ 53] syscall  43 x1     
+  [ 54] syscall  42 x1     
+  [ 55] syscall  43 x1     
+  [ 56] syscall  42 x1     
+  [ 57] syscall  34 x1     
+  [ 58] syscall  42 x1     
+  [ 59] syscall  43 x1     
+  [ 60] syscall  42 x1     
+  [ 61] syscall  43 x1     
+  [ 62] syscall  42 x1     
+  [ 63] syscall  34 x1     
+  [ 64] syscall  42 x1     
+  [ 65] syscall  34 x1     
+  [ 66] syscall  42 x1     
+  [ 67] syscall  34 x1     
+  [ 68] syscall  42 x1     
+  [ 69] syscall  37 x1     
+  [ 70] syscall  34 x1     
+  [ 71] syscall  38 x1     
+  [ 72] syscall  34 x1     
+  [ 73] syscall  38 x1     
+  [ 74] syscall  34 x1     
+  [ 75] syscall  38 x1     
+  [ 76] syscall  34 x1     
+  [ 77] syscall  38 x1     
+  [ 78] syscall  34 x1     
+  [ 79] syscall  38 x1     
+  [ 80] syscall  34 x1     
+  [ 81] syscall  38 x1     
+  [ 82] syscall  86 x2     
+  [ 83] syscall  37 x1     
+  [ 84] syscall  34 x1     
+  [ 85] syscall  38 x1     
+  [ 86] syscall  34 x1     
+  [ 87] syscall  38 x1     
+  [ 88] syscall  34 x1     
+  [ 89] syscall  38 x1     
+  [ 90] syscall  34 x1     
+  [ 91] syscall  38 x1     
+  [ 92] syscall  34 x1     
+  [ 93] syscall  38 x1     
+  [ 94] syscall  34 x1     
+  [ 95] syscall  38 x1     
+  [ 96] syscall  41 x1     
+  [ 97] syscall  34 x1     
+  [ 98] syscall  42 x1     
+  [ 99] syscall  34 x1     
+  [100] syscall  42 x1     
+  [101] syscall  43 x1     
+  [102] syscall  42 x1     
+  [103] syscall  43 x1     
+  [104] syscall  42 x1     
+  [105] syscall  43 x1     
+  [106] syscall  42 x1     
+  [107] syscall  43 x1     
+  [108] syscall  42 x1     
+  [109] syscall  34 x1     
+  [110] syscall  42 x1     
+  [111] syscall  43 x1     
+  [112] syscall  42 x1     
+  [113] syscall  43 x1     
+  [114] syscall  42 x1     
+  [115] syscall  34 x1     
+  [116] syscall  42 x1     
+  [117] syscall  34 x1     
+  [118] syscall  42 x1     
+  [119] syscall  34 x1     
+  [120] syscall  42 x1     
+  [121] syscall  41 x1     
+  [122] syscall  34 x1     
+  [123] syscall  42 x1     
+  [124] syscall  34 x1     
+  [125] syscall  42 x1     
+  [126] syscall  43 x1     
+  [127] syscall  42 x1     
+  [128] syscall  43 x1     
+  [129] syscall  42 x1     
+  [130] syscall  43 x1     
+  [131] syscall  42 x1     
+  [132] syscall  43 x1     
+  [133] syscall  42 x1     
+  [134] syscall  34 x1     
+  [135] syscall  42 x1     
+  [136] syscall  43 x1     
+  [137] syscall  42 x1     
+  [138] syscall  43 x1     
+  [139] syscall  42 x1     
+  [140] syscall  34 x1     
+  [141] syscall  42 x1     
+  [142] syscall  34 x1     
+  [143] syscall  42 x1     
+  [144] syscall  34 x1     
+  [145] syscall  42 x1     
+  [146] syscall  37 x1     
+  [147] syscall  34 x1     
+  [148] syscall  38 x1     
+  [149] syscall  34 x1     
+  [150] syscall  38 x1     
+  [151] syscall  34 x1     
+  [152] syscall  38 x1     
+  [153] syscall  34 x1     
+  [154] syscall  38 x1     
+  [155] syscall  34 x1     
+  [156] syscall  38 x1     
+  [157] syscall  34 x1     
+  [158] syscall  38 x1     
+  [159] syscall  86 x2     
+  [160] syscall  37 x1     
+  [161] syscall  34 x1     
+  [162] syscall  38 x1     
+  [163] syscall  34 x1     
+  [164] syscall  38 x1     
+  [165] syscall  34 x1     
+  [166] syscall  38 x1     
+  [167] syscall  34 x1     
+  [168] syscall  38 x1     
+  [169] syscall  34 x1     
+  [170] syscall  38 x1     
+  [171] syscall  34 x1     
+  [172] syscall  38 x1     
+  [173] syscall  41 x1     
+  [174] syscall  34 x1     
+  [175] syscall  42 x1     
+  [176] syscall  34 x1     
+  [177] syscall  42 x1     
+  [178] syscall  43 x1     
+  [179] syscall  42 x1     
+  [180] syscall  43 x1     
+  [181] syscall  42 x1     
+  [182] syscall  43 x1     
+  [183] syscall  42 x1     
+  [184] syscall  43 x1     
+  [185] syscall  42 x1     
+  [186] syscall  34 x1     
+  [187] syscall  42 x1     
+  [188] syscall  43 x1     
+  [189] syscall  42 x1     
+  [190] syscall  43 x1     
+  [191] syscall  42 x1     
+  [192] syscall  34 x1     
+  [193] syscall  42 x1     
+  [194] syscall  34 x1     
+  [195] syscall  42 x1     
+  [196] syscall  34 x1     
+  [197] syscall  42 x1     
+  [198] syscall  41 x1     
+  [199] syscall  34 x1     
+  [200] syscall  42 x1     
+  [201] syscall  34 x1     
+  [202] syscall  42 x1     
+  [203] syscall  43 x1     
+  [204] syscall  42 x1     
+  [205] syscall  43 x1     
+  [206] syscall  42 x1     
+  [207] syscall  43 x1     
+  [208] syscall  42 x1     
+  [209] syscall  43 x1     
+  [210] syscall  42 x1     
+  [211] syscall  34 x1     
+  [212] syscall  42 x1     
+  [213] syscall  43 x1     
+  [214] syscall  42 x1     
+  [215] syscall  43 x1     
+  [216] syscall  42 x1     
+  [217] syscall  34 x1     
+  [218] syscall  42 x1     
+  [219] syscall  34 x1     
+  [220] syscall  42 x1     
+  [221] syscall  34 x1     
+  [222] syscall  42 x1     
+  [223] syscall  37 x1     
+  [224] syscall  34 x1     
+  [225] syscall  38 x1     
+  [226] syscall  34 x1     
+  [227] syscall  38 x1     
+  [228] syscall  34 x1     
+  [229] syscall  38 x1     
+  [230] syscall  34 x1     
+  [231] syscall  38 x1     
+  [232] syscall  34 x1     
+  [233] syscall  38 x1     
+  [234] syscall  34 x1     
+  [235] syscall  38 x1     
+  [236] syscall  86 x2     
+  [237] syscall  37 x1     
+  [238] syscall  34 x1     
+  [239] syscall  38 x1     
+  [240] syscall  34 x1     
+  [241] syscall  38 x1     
+  [242] syscall  34 x1     
+  [243] syscall  38 x1     
+  [244] syscall  34 x1     
+  [245] syscall  38 x1     
+  [246] syscall  34 x1     
+  [247] syscall  38 x1     
+  [248] syscall  34 x1     
+  [249] syscall  38 x1     
+  [250] syscall  41 x1     
+  [251] syscall  34 x1     
+  [252] syscall  42 x1     
+  [253] syscall  34 x1     
+  [254] syscall  42 x1     
+  [255] syscall  43 x1     
+  [256] syscall  42 x1     
+  [257] syscall  43 x1     
+  [258] syscall  42 x1     
+  [259] syscall  43 x1     
+  [260] syscall  42 x1     
+  [261] syscall  43 x1     
+  [262] syscall  42 x1     
+  [263] syscall  34 x1     
+  [264] syscall  42 x1     
+  [265] syscall  43 x1     
+  [266] syscall  42 x1     
+  [267] syscall  43 x1     
+  [268] syscall  42 x1     
+  [269] syscall  34 x1     
+  [270] syscall  42 x1     
+  [271] syscall  34 x1     
+  [272] syscall  42 x1     
+  [273] syscall  34 x1     
+  [274] syscall  42 x1     
+  [275] syscall  41 x1     
+  [276] syscall  34 x1     
+  [277] syscall  42 x1     
+  [278] syscall  34 x1     
+  [279] syscall  42 x1     
+  [280] syscall  43 x1     
+  [281] syscall  42 x1     
+  [282] syscall  43 x1     
+  [283] syscall  42 x1     
+  [284] syscall  43 x1     
+  [285] syscall  42 x1     
+  [286] syscall  43 x1     
+  [287] syscall  42 x1     
+  [288] syscall  34 x1     
+  [289] syscall  42 x1     
+  [290] syscall  43 x1     
+  [291] syscall  42 x1     
+  [292] syscall  43 x1     
+  [293] syscall  42 x1     
+  [294] syscall  34 x1     
+  [295] syscall  42 x1     
+  [296] syscall  34 x1     
+  [297] syscall  42 x1     
+  [298] syscall  34 x1     
+  [299] syscall  42 x1     
+  [300] syscall  37 x1     
+  [301] syscall  34 x1     
+  [302] syscall  38 x1     
+  [303] syscall  34 x1     
+  [304] syscall  38 x1     
+  [305] syscall  34 x1     
+  [306] syscall  38 x1     
+  [307] syscall  34 x1     
+  [308] syscall  38 x1     
+  [309] syscall  34 x1     
+  [310] syscall  38 x1     
+  [311] syscall  34 x1     
+  [312] syscall  38 x1     
+  [313] syscall  86 x2     
+  [314] syscall  37 x1     
+  [315] syscall  34 x1     
+  [316] syscall  38 x1     
+  [317] syscall  34 x1     
+  [318] syscall  38 x1     
+  [319] syscall  34 x1     
+  [320] syscall  38 x1     
+  [321] syscall  34 x1     
+  [322] syscall  38 x1     
+  [323] syscall  34 x1     
+  [324] syscall  38 x1     
+  [325] syscall  34 x1     
+  [326] syscall  38 x1     
+  [327] syscall  41 x1     
+  [328] syscall  34 x1     
+  [329] syscall  42 x1     
+  [330] syscall  34 x1     
+  [331] syscall  42 x1     
+  [332] syscall  43 x1     
+  [333] syscall  42 x1     
+  [334] syscall  43 x1     
+  [335] syscall  42 x1     
+  [336] syscall  43 x1     
+  [337] syscall  42 x1     
+  [338] syscall  43 x1     
+  [339] syscall  42 x1     
+  [340] syscall  34 x1     
+  [341] syscall  42 x1     
+  [342] syscall  43 x1     
+  [343] syscall  42 x1     
+  [344] syscall  43 x1     
+  [345] syscall  42 x1     
+  [346] syscall  34 x1     
+  [347] syscall  42 x1     
+  [348] syscall  34 x1     
+  [349] syscall  42 x1     
+  [350] syscall  34 x1     
+  [351] syscall  42 x1     
+  [352] syscall  41 x1     
+  [353] syscall  34 x1     
+  [354] syscall  42 x1     
+  [355] syscall  34 x1     
+  [356] syscall  42 x1     
+  [357] syscall  43 x1     
+  [358] syscall  42 x1     
+  [359] syscall  43 x1     
+  [360] syscall  42 x1     
+  [361] syscall  43 x1     
+  [362] syscall  42 x1     
+  [363] syscall  43 x1     
+  [364] syscall  42 x1     
+  [365] syscall  34 x1     
+  [366] syscall  42 x1     
+  [367] syscall  43 x1     
+  [368] syscall  42 x1     
+  [369] syscall  43 x1     
+  [370] syscall  42 x1     
+  [371] syscall  34 x1     
+  [372] syscall  42 x1     
+  [373] syscall  34 x1     
+  [374] syscall  42 x1     
+  [375] syscall  34 x1     
+  [376] syscall  42 x1     
+  [377] syscall  37 x1     
+  [378] syscall  34 x1     
+  [379] syscall  38 x1     
+  [380] syscall  34 x1     
+  [381] syscall  38 x1     
+  [382] syscall  34 x1     
+  [383] syscall  38 x1     
+  [384] syscall  34 x1     
+  [385] syscall  38 x1     
+  [386] syscall  34 x1     
+  [387] syscall  38 x1     
+  [388] syscall  34 x1     
+  [389] syscall  38 x1     
+  [390] syscall  86 x2     
+  [391] syscall  37 x1     
+  [392] syscall  34 x1     
+  [393] syscall  38 x1     
+  [394] syscall  34 x1     
+  [395] syscall  38 x1     
+  [396] syscall  34 x1     
+  [397] syscall  38 x1     
+  [398] syscall  34 x1     
+  [399] syscall  38 x1     
+  [400] syscall  34 x1     
+  [401] syscall  38 x1     
+  [402] syscall  34 x1     
+  [403] syscall  38 x1     
+  [404] syscall  41 x1     
+  [405] syscall  34 x1     
+  [406] syscall  42 x1     
+  [407] syscall  34 x1     
+  [408] syscall  42 x1     
+  [409] syscall  43 x1     
+  [410] syscall  42 x1     
+  [411] syscall  43 x1     
+  [412] syscall  42 x1     
+  [413] syscall  43 x1     
+  [414] syscall  42 x1     
+  [415] syscall  43 x1     
+  [416] syscall  42 x1     
+  [417] syscall  34 x1     
+  [418] syscall  42 x1     
+  [419] syscall  43 x1     
+  [420] syscall  42 x1     
+  [421] syscall  43 x1     
+  [422] syscall  42 x1     
+  [423] syscall  34 x1     
+  [424] syscall  42 x1     
+  [425] syscall  34 x1     
+  [426] syscall  42 x1     
+  [427] syscall  34 x1     
+  [428] syscall  42 x1     
+  [429] syscall  41 x1     
+  [430] syscall  34 x1     
+  [431] syscall  42 x1     
+  [432] syscall  34 x1     
+  [433] syscall  42 x1     
+  [434] syscall  43 x1     
+  [435] syscall  42 x1     
+  [436] syscall  43 x1     
+  [437] syscall  42 x1     
+  [438] syscall  43 x1     
+  [439] syscall  42 x1     
+  [440] syscall  43 x1     
+  [441] syscall  42 x1     
+  [442] syscall  34 x1     
+  [443] syscall  42 x1     
+  [444] syscall  43 x1     
+  [445] syscall  42 x1     
+  [446] syscall  43 x1     
+  [447] syscall  42 x1     
+  [448] syscall  34 x1     
+  [449] syscall  42 x1     
+  [450] syscall  34 x1     
+  [451] syscall  42 x1     
+  [452] syscall  34 x1     
+  [453] syscall  42 x1     
+  [454] syscall  37 x1     
+  [455] syscall  34 x1     
+  [456] syscall  38 x1     
+  [457] syscall  34 x1     
+  [458] syscall  38 x1     
+  [459] syscall  34 x1     
+  [460] syscall  38 x1     
+  [461] syscall  34 x1     
+  [462] syscall  38 x1     
+  [463] syscall  34 x1     
+  [464] syscall  38 x1     
+  [465] syscall  34 x1     
+  [466] syscall  38 x1     
+  [467] syscall  86 x2     
+  [468] syscall  37 x1     
+  [469] syscall  34 x1     
+  [470] syscall  38 x1     
+  [471] syscall  34 x1     
+  [472] syscall  38 x1     
+  [473] syscall  34 x1     
+  [474] syscall  38 x1     
+  [475] syscall  34 x1     
+  [476] syscall  38 x1     
+  [477] syscall  34 x1     
+  [478] syscall  38 x1     
+  [479] syscall  34 x1     
+  [480] syscall  38 x1     
+  [481] syscall  41 x1     
+  [482] syscall  34 x1     
+  [483] syscall  42 x1     
+  [484] syscall  34 x1     
+  [485] syscall  42 x1     
+  [486] syscall  43 x1     
+  [487] syscall  42 x1     
+  [488] syscall  43 x1     
+  [489] syscall  42 x1     
+  [490] syscall  43 x1     
+  [491] syscall  42 x1     
+  [492] syscall  43 x1     
+  [493] syscall  42 x1     
+  [494] syscall  34 x1     
+  [495] syscall  42 x1     
+  [496] syscall  43 x1     
+  [497] syscall  42 x1     
+  [498] syscall  43 x1     
+  [499] syscall  42 x1     
+  [500] syscall  34 x1     
+  [501] syscall  42 x1     
+  [502] syscall  34 x1     
+  [503] syscall  42 x1     
+  [504] syscall  34 x1     
+  [505] syscall  42 x1     
+  [506] syscall  41 x1     
+  [507] syscall  34 x1     
+  [508] syscall  42 x1     
+  [509] syscall  34 x1     
+  [510] syscall  42 x1     
+  [511] syscall  43 x1     
+  [512] syscall  42 x1     
+  [513] syscall  43 x1     
+  [514] syscall  42 x1     
+  [515] syscall  43 x1     
+  [516] syscall  42 x1     
+  [517] syscall  43 x1     
+  [518] syscall  42 x1     
+  [519] syscall  34 x1     
+  [520] syscall  42 x1     
+  [521] syscall  43 x1     
+  [522] syscall  42 x1     
+  [523] syscall  43 x1     
+  [524] syscall  42 x1     
+  [525] syscall  34 x1     
+  [526] syscall  42 x1     
+  [527] syscall  34 x1     
+  [528] syscall  42 x1     
+  [529] syscall  34 x1     
+  [530] syscall  42 x1     
+  [531] syscall  37 x1     
+  [532] syscall  34 x1     
+  [533] syscall  38 x1     
+  [534] syscall  34 x1     
+  [535] syscall  38 x1     
+  [536] syscall  34 x1     
+  [537] syscall  38 x1     
+  [538] syscall  34 x1     
+  [539] syscall  38 x1     
+  [540] syscall  34 x1     
+  [541] syscall  38 x1     
+  [542] syscall  34 x1     
+  [543] syscall  38 x1     
+  [544] syscall  86 x2     
+  [545] syscall  37 x1     
+  [546] syscall  34 x1     
+  [547] syscall  38 x1     
+  [548] syscall  34 x1     
+  [549] syscall  38 x1     
+  [550] syscall  34 x1     
+  [551] syscall  38 x1     
+  [552] syscall  34 x1     
+  [553] syscall  38 x1     
+  [554] syscall  34 x1     
+  [555] syscall  38 x1     
+  [556] syscall  34 x1     
+  [557] syscall  38 x1     
+  [558] syscall  41 x1     
+  [559] syscall  34 x1     
+  [560] syscall  42 x1     
+  [561] syscall  34 x1     
+  [562] syscall  42 x1     
+  [563] syscall  43 x1     
+  [564] syscall  42 x1     
+  [565] syscall  43 x1     
+  [566] syscall  42 x1     
+  [567] syscall  43 x1     
+  [568] syscall  42 x1     
+  [569] syscall  43 x1     
+  [570] syscall  42 x1     
+  [571] syscall  34 x1     
+  [572] syscall  42 x1     
+  [573] syscall  43 x1     
+  [574] syscall  42 x1     
+  [575] syscall  43 x1     
+  [576] syscall  42 x1     
+  [577] syscall  34 x1     
+  [578] syscall  42 x1     
+  [579] syscall  34 x1     
+  [580] syscall  42 x1     
+  [581] syscall  34 x1     
+  [582] syscall  42 x1     
+  [583] syscall  41 x1     
+  [584] syscall  34 x1     
+  [585] syscall  42 x1     
+  [586] syscall  34 x1     
+  [587] syscall  42 x1     
+  [588] syscall  43 x1     
+  [589] syscall  42 x1     
+  [590] syscall  43 x1     
+  [591] syscall  42 x1     
+  [592] syscall  43 x1     
+  [593] syscall  42 x1     
+  [594] syscall  43 x1     
+  [595] syscall  42 x1     
+  [596] syscall  34 x1     
+  [597] syscall  42 x1     
+  [598] syscall  43 x1     
+  [599] syscall  42 x1     
+  [600] syscall  43 x1     
+  [601] syscall  42 x1     
+  [602] syscall  34 x1     
+  [603] syscall  42 x1     
+  [604] syscall  34 x1     
+  [605] syscall  42 x1     
+  [606] syscall  34 x1     
+  [607] syscall  42 x1     
+  [608] syscall  37 x1     
+  [609] syscall  34 x1     
+  [610] syscall  38 x1     
+  [611] syscall  34 x1     
+  [612] syscall  38 x1     
+  [613] syscall  34 x1     
+  [614] syscall  38 x1     
+  [615] syscall  34 x1     
+  [616] syscall  38 x1     
+  [617] syscall  34 x1     
+  [618] syscall  38 x1     
+  [619] syscall  34 x1     
+  [620] syscall  38 x1     
+  [621] syscall  86 x2     
+  [622] syscall  37 x1     
+  [623] syscall  34 x1     
+  [624] syscall  38 x1     
+  [625] syscall  34 x1     
+  [626] syscall  38 x1     
+  [627] syscall  34 x1     
+  [628] syscall  38 x1     
+  [629] syscall  34 x1     
+  [630] syscall  38 x1     
+  [631] syscall  34 x1     
+  [632] syscall  38 x1     
+  [633] syscall  34 x1     
+  [634] syscall  38 x1     
+  [635] syscall  41 x1     
+  [636] syscall  34 x1     
+  [637] syscall  42 x1     
+  [638] syscall  34 x1     
+  [639] syscall  42 x1     
+  [640] syscall  43 x1     
+  [641] syscall  42 x1     
+  [642] syscall  43 x1     
+  [643] syscall  42 x1     
+  [644] syscall  43 x1     
+  [645] syscall  42 x1     
+  [646] syscall  43 x1     
+  [647] syscall  42 x1     
+  [648] syscall  34 x1     
+  [649] syscall  42 x1     
+  [650] syscall  43 x1     
+  [651] syscall  42 x1     
+  [652] syscall  43 x1     
+  [653] syscall  42 x1     
+  [654] syscall  34 x1     
+  [655] syscall  42 x1     
+  [656] syscall  34 x1     
+  [657] syscall  42 x1     
+  [658] syscall  34 x1     
+  [659] syscall  42 x1     
+  [660] syscall  41 x1     
+  [661] syscall  34 x1     
+  [662] syscall  42 x1     
+  [663] syscall  34 x1     
+  [664] syscall  42 x1     
+  [665] syscall  43 x1     
+  [666] syscall  42 x1     
+  [667] syscall  43 x1     
+  [668] syscall  42 x1     
+  [669] syscall  43 x1     
+  [670] syscall  42 x1     
+  [671] syscall  43 x1     
+  [672] syscall  42 x1     
+  [673] syscall  34 x1     
+  [674] syscall  42 x1     
+  [675] syscall  43 x1     
+  [676] syscall  42 x1     
+  [677] syscall  43 x1     
+  [678] syscall  42 x1     
+  [679] syscall  34 x1     
+  [680] syscall  42 x1     
+  [681] syscall  34 x1     
+  [682] syscall  42 x1     
+  [683] syscall  34 x1     
+  [684] syscall  42 x1     
+  [685] syscall  37 x1     
+  [686] syscall  34 x1     
+  [687] syscall  38 x1     
+  [688] syscall  34 x1     
+  [689] syscall  38 x1     
+  [690] syscall  34 x1     
+  [691] syscall  38 x1     
+  [692] syscall  34 x1     
+  [693] syscall  38 x1     
+  [694] syscall  34 x1     
+  [695] syscall  38 x1     
+  [696] syscall  34 x1     
+  [697] syscall  38 x1     
+  [698] syscall  86 x2     
+  [699] syscall  37 x1     
+  [700] syscall  34 x1     
+  [701] syscall  38 x1     
+  [702] syscall  34 x1     
+  [703] syscall  38 x1     
+  [704] syscall  34 x1     
+  [705] syscall  38 x1     
+  [706] syscall  34 x1     
+  [707] syscall  38 x1     
+  [708] syscall  34 x1     
+  [709] syscall  38 x1     
+  [710] syscall  34 x1     
+  [711] syscall  38 x1     
+  [712] syscall  41 x1     
+  [713] syscall  34 x1     
+  [714] syscall  42 x1     
+  [715] syscall  34 x1     
+  [716] syscall  42 x1     
+  [717] syscall  43 x1     
+  [718] syscall  42 x1     
+  [719] syscall  43 x1     
+  [720] syscall  42 x1     
+  [721] syscall  43 x1     
+  [722] syscall  42 x1     
+  [723] syscall  43 x1     
+  [724] syscall  42 x1     
+  [725] syscall  34 x1     
+  [726] syscall  42 x1     
+  [727] syscall  43 x1     
+  [728] syscall  42 x1     
+  [729] syscall  43 x1     
+  [730] syscall  42 x1     
+  [731] syscall  34 x1     
+  [732] syscall  42 x1     
+  [733] syscall  34 x1     
+  [734] syscall  42 x1     
+  [735] syscall  34 x1     
+  [736] syscall  42 x1     
+  [737] syscall  41 x1     
+  [738] syscall  34 x1     
+  [739] syscall  42 x1     
+  [740] syscall  34 x1     
+  [741] syscall  42 x1     
+  [742] syscall  43 x1     
+  [743] syscall  42 x1     
+  [744] syscall  43 x1     
+  [745] syscall  42 x1     
+  [746] syscall  43 x1     
+  [747] syscall  42 x1     
+  [748] syscall  43 x1     
+  [749] syscall  42 x1     
+  [750] syscall  34 x1     
+  [751] syscall  42 x1     
+  [752] syscall  43 x1     
+  [753] syscall  42 x1     
+  [754] syscall  43 x1     
+  [755] syscall  42 x1     
+  [756] syscall  34 x1     
+  [757] syscall  42 x1     
+  [758] syscall  34 x1     
+  [759] syscall  42 x1     
+  [760] syscall  34 x1     
+  [761] syscall  42 x1     
+  [762] syscall  37 x1     
+  [763] syscall  34 x1     
+  [764] syscall  38 x1     
+  [765] syscall  34 x1     
+  [766] syscall  38 x1     
+  [767] syscall  34 x1     
+  [768] syscall  38 x1     
+  [769] syscall  34 x1     
+  [770] syscall  38 x1     
+  [771] syscall  34 x1     
+  [772] syscall  38 x1     
+  [773] syscall  34 x1     
+  [774] syscall  38 x1     
+  [775] syscall  86 x2     
+  [776] syscall  37 x1     
+  [777] syscall  34 x1     
+  [778] syscall  38 x1     
+  [779] syscall  34 x1     
+  [780] syscall  38 x1     
+  [781] syscall  34 x1     
+  [782] syscall  38 x1     
+  [783] syscall  34 x1     
+  [784] syscall  38 x1     
+  [785] syscall  34 x1     
+  [786] syscall  38 x1     
+  [787] syscall  34 x1     
+  [788] syscall  38 x1     
+  [789] syscall  41 x1     
+  [790] syscall  34 x1     
+  [791] syscall  42 x1     
+  [792] syscall  34 x1     
+  [793] syscall  42 x1     
+  [794] syscall  43 x1     
+  [795] syscall  42 x1     
+  [796] syscall  43 x1     
+  [797] syscall  42 x1     
+  [798] syscall  43 x1     
+  [799] syscall  42 x1     
+  [800] syscall  43 x1     
+  [801] syscall  42 x1     
+  [802] syscall  34 x1     
+  [803] syscall  42 x1     
+  [804] syscall  43 x1     
+  [805] syscall  42 x1     
+  [806] syscall  43 x1     
+  [807] syscall  42 x1     
+  [808] syscall  34 x1     
+  [809] syscall  42 x1     
+  [810] syscall  34 x1     
+  [811] syscall  42 x1     
+  [812] syscall  34 x1     
+  [813] syscall  42 x1     
+  [814] syscall  41 x1     
+  [815] syscall  34 x1     
+  [816] syscall  42 x1     
+  [817] syscall  34 x1     
+  [818] syscall  42 x1     
+  [819] syscall  43 x1     
+  [820] syscall  42 x1     
+  [821] syscall  43 x1     
+  [822] syscall  42 x1     
+  [823] syscall  43 x1     
+  [824] syscall  42 x1     
+  [825] syscall  43 x1     
+  [826] syscall  42 x1     
+  [827] syscall  34 x1     
+  [828] syscall  42 x1     
+  [829] syscall  43 x1     
+  [830] syscall  42 x1     
+  [831] syscall  43 x1     
+  [832] syscall  42 x1     
+  [833] syscall  34 x1     
+  [834] syscall  42 x1     
+  [835] syscall  34 x1     
+  [836] syscall  42 x1     
+  [837] syscall  34 x1     
+  [838] syscall  42 x1     
+  [839] syscall  37 x1     
+  [840] syscall  34 x1     
+  [841] syscall  38 x1     
+  [842] syscall  34 x1     
+  [843] syscall  38 x1     
+  [844] syscall  34 x1     
+  [845] syscall  38 x1     
+  [846] syscall  34 x1     
+  [847] syscall  38 x1     
+  [848] syscall  34 x1     
+  [849] syscall  38 x1     
+  [850] syscall  34 x1     
+  [851] syscall  38 x1     
+  [852] syscall  86 x2     
+  [853] syscall  37 x1     
+  [854] syscall  34 x1     
+  [855] syscall  38 x1     
+  [856] syscall  34 x1     
+  [857] syscall  38 x1     
+  [858] syscall  34 x1     
+  [859] syscall  38 x1     
+  [860] syscall  34 x1     
+  [861] syscall  38 x1     
+  [862] syscall  34 x1     
+  [863] syscall  38 x1     
+  [864] syscall  34 x1     
+  [865] syscall  38 x1     
+  [866] syscall  41 x1     
+  [867] syscall  34 x1     
+  [868] syscall  42 x1     
+  [869] syscall  34 x1     
+  [870] syscall  42 x1     
+  [871] syscall  43 x1     
+  [872] syscall  42 x1     
+  [873] syscall  43 x1     
+  [874] syscall  42 x1     
+  [875] syscall  43 x1     
+  [876] syscall  42 x1     
+  [877] syscall  43 x1     
+  [878] syscall  42 x1     
+  [879] syscall  34 x1     
+  [880] syscall  42 x1     
+  [881] syscall  43 x1     
+  [882] syscall  42 x1     
+  [883] syscall  43 x1     
+  [884] syscall  42 x1     
+  [885] syscall  34 x1     
+  [886] syscall  42 x1     
+  [887] syscall  34 x1     
+  [888] syscall  42 x1     
+  [889] syscall  34 x1     
+  [890] syscall  42 x1     
+  [891] syscall  41 x1     
+  [892] syscall  34 x1     
+  [893] syscall  42 x1     
+  [894] syscall  34 x1     
+  [895] syscall  42 x1     
+  [896] syscall  43 x1     
+  [897] syscall  42 x1     
+  [898] syscall  43 x1     
+  [899] syscall  42 x1     
+  [900] syscall  43 x1     
+  [901] syscall  42 x1     
+  [902] syscall  43 x1     
+  [903] syscall  42 x1     
+  [904] syscall  34 x1     
+  [905] syscall  42 x1     
+  [906] syscall  43 x1     
+  [907] syscall  42 x1     
+  [908] syscall  43 x1     
+  [909] syscall  42 x1     
+  [910] syscall  34 x1     
+  [911] syscall  42 x1     
+  [912] syscall  34 x1     
+  [913] syscall  42 x1     
+  [914] syscall  34 x1     
+  [915] syscall  42 x1     
+  [916] syscall  37 x1     
+  [917] syscall  34 x1     
+  [918] syscall  38 x1     
+  [919] syscall  34 x1     
+  [920] syscall  38 x1     
+  [921] syscall  34 x1     
+  [922] syscall  38 x1     
+  [923] syscall  34 x1     
+  [924] syscall  38 x1     
+  [925] syscall  34 x1     
+  [926] syscall  38 x1     
+  [927] syscall  34 x1     
+  [928] syscall  38 x1     
+  [929] syscall  86 x2     
+  [930] syscall  37 x1     
+  [931] syscall  34 x1     
+  [932] syscall  38 x1     
+  [933] syscall  34 x1     
+  [934] syscall  38 x1     
+  [935] syscall  34 x1     
+  [936] syscall  38 x1     
+  [937] syscall  34 x1     
+  [938] syscall  38 x1     
+  [939] syscall  34 x1     
+  [940] syscall  38 x1     
+  [941] syscall  34 x1     
+  [942] syscall  38 x1     
+  [943] syscall  41 x1     
+  [944] syscall  34 x1     
+  [945] syscall  42 x1     
+  [946] syscall  34 x1     
+  [947] syscall  42 x1     
+  [948] syscall  43 x1     
+  [949] syscall  42 x1     
+  [950] syscall  43 x1     
+  [951] syscall  42 x1     
+  [952] syscall  43 x1     
+  [953] syscall  42 x1     
+  [954] syscall  43 x1     
+  [955] syscall  42 x1     
+  [956] syscall  34 x1     
+  [957] syscall  42 x1     
+  [958] syscall  43 x1     
+  [959] syscall  42 x1     
+  [960] syscall  43 x1     
+  [961] syscall  42 x1     
+  [962] syscall  34 x1     
+  [963] syscall  42 x1     
+  [964] syscall  34 x1     
+  [965] syscall  42 x1     
+  [966] syscall  34 x1     
+  [967] syscall  42 x1     
+  [968] syscall  41 x1     
+  [969] syscall  34 x1     
+  [970] syscall  42 x1     
+  [971] syscall  34 x1     
+  [972] syscall  42 x1     
+  [973] syscall  43 x1     
+  [974] syscall  42 x1     
+  [975] syscall  43 x1     
+  [976] syscall  42 x1     
+  [977] syscall  43 x1     
+  [978] syscall  42 x1     
+  [979] syscall  43 x1     
+  [980] syscall  42 x1     
+  [981] syscall  34 x1     
+  [982] syscall  42 x1     
+  [983] syscall  43 x1     
+  [984] syscall  42 x1     
+  [985] syscall  43 x1     
+  [986] syscall  42 x1     
+  [987] syscall  34 x1     
+  [988] syscall  42 x1     
+  [989] syscall  34 x1     
+  [990] syscall  42 x1     
+  [991] syscall  34 x1     
+  [992] syscall  42 x1     
+  [993] syscall  37 x1     
+  [994] syscall  34 x1     
+  [995] syscall  38 x1     
+  [996] syscall  34 x1     
+  [997] syscall  38 x1     
+  [998] syscall  34 x1     
+  [999] syscall  38 x1     
+  [1000] syscall  34 x1     
+  [1001] syscall  38 x1     
+  [1002] syscall  34 x1     
+  [1003] syscall  38 x1     
+  [1004] syscall  34 x1     
+  [1005] syscall  38 x1     
+  [1006] syscall  86 x2     
+  [1007] syscall  37 x1     
+  [1008] syscall  34 x1     
+  [1009] syscall  38 x1     
+  [1010] syscall  34 x1     
+  [1011] syscall  38 x1     
+  [1012] syscall  34 x1     
+  [1013] syscall  38 x1     
+  [1014] syscall  34 x1     
+  [1015] syscall  38 x1     
+  [1016] syscall  34 x1     
+  [1017] syscall  38 x1     
+  [1018] syscall  34 x1     
+  [1019] syscall  38 x1     
+  [1020] syscall  41 x1     
+  [1021] syscall  34 x1     
+  [1022] syscall  42 x1     
+  [1023] syscall  34 x1     
+  [1024] syscall  42 x1     
+  [1025] syscall  43 x1     
+  [1026] syscall  42 x1     
+  [1027] syscall  43 x1     
+  [1028] syscall  42 x1     
+  [1029] syscall  43 x1     
+  [1030] syscall  42 x1     
+  [1031] syscall  43 x1     
+  [1032] syscall  42 x1     
+  [1033] syscall  34 x1     
+  [1034] syscall  42 x1     
+  [1035] syscall  43 x1     
+  [1036] syscall  42 x1     
+  [1037] syscall  43 x1     
+  [1038] syscall  42 x1     
+  [1039] syscall  34 x1     
+  [1040] syscall  42 x1     
+  [1041] syscall  34 x1     
+  [1042] syscall  42 x1     
+  [1043] syscall  34 x1     
+  [1044] syscall  42 x1     
+  [1045] syscall  41 x1     
+  [1046] syscall  34 x1     
+  [1047] syscall  42 x1     
+  [1048] syscall  34 x1     
+  [1049] syscall  42 x1     
+  [1050] syscall  43 x1     
+  [1051] syscall  42 x1     
+  [1052] syscall  43 x1     
+  [1053] syscall  42 x1     
+  [1054] syscall  43 x1     
+  [1055] syscall  42 x1     
+  [1056] syscall  43 x1     
+  [1057] syscall  42 x1     
+  [1058] syscall  34 x1     
+  [1059] syscall  42 x1     
+  [1060] syscall  43 x1     
+  [1061] syscall  42 x1     
+  [1062] syscall  43 x1     
+  [1063] syscall  42 x1     
+  [1064] syscall  34 x1     
+  [1065] syscall  42 x1     
+  [1066] syscall  34 x1     
+  [1067] syscall  42 x1     
+  [1068] syscall  34 x1     
+  [1069] syscall  42 x1     
+  [1070] syscall  37 x1     
+  [1071] syscall  34 x1     
+  [1072] syscall  38 x1     
+  [1073] syscall  34 x1     
+  [1074] syscall  38 x1     
+  [1075] syscall  34 x1     
+  [1076] syscall  38 x1     
+  [1077] syscall  34 x1     
+  [1078] syscall  38 x1     
+  [1079] syscall  34 x1     
+  [1080] syscall  38 x1     
+  [1081] syscall  34 x1     
+  [1082] syscall  38 x1     
+  [1083] syscall  86 x2     
+  [1084] syscall  37 x1     
+  [1085] syscall  34 x1     
+  [1086] syscall  38 x1     
+  [1087] syscall  34 x1     
+  [1088] syscall  38 x1     
+  [1089] syscall  34 x1     
+  [1090] syscall  38 x1     
+  [1091] syscall  34 x1     
+  [1092] syscall  38 x1     
+  [1093] syscall  34 x1     
+  [1094] syscall  38 x1     
+  [1095] syscall  34 x1     
+  [1096] syscall  38 x1     
+  [1097] syscall  41 x1     
+  [1098] syscall  34 x1     
+  [1099] syscall  42 x1     
+  [1100] syscall  34 x1     
+  [1101] syscall  42 x1     
+  [1102] syscall  43 x1     
+  [1103] syscall  42 x1     
+  [1104] syscall  43 x1     
+  [1105] syscall  42 x1     
+  [1106] syscall  43 x1     
+  [1107] syscall  42 x1     
+  [1108] syscall  43 x1     
+  [1109] syscall  42 x1     
+  [1110] syscall  34 x1     
+  [1111] syscall  42 x1     
+  [1112] syscall  43 x1     
+  [1113] syscall  42 x1     
+  [1114] syscall  43 x1     
+  [1115] syscall  42 x1     
+  [1116] syscall  34 x1     
+  [1117] syscall  42 x1     
+  [1118] syscall  34 x1     
+  [1119] syscall  42 x1     
+  [1120] syscall  34 x1     
+  [1121] syscall  42 x1     
+  [1122] syscall  41 x1     
+  [1123] syscall  34 x1     
+  [1124] syscall  42 x1     
+  [1125] syscall  34 x1     
+  [1126] syscall  42 x1     
+  [1127] syscall  43 x1     
+  [1128] syscall  42 x1     
+  [1129] syscall  43 x1     
+  [1130] syscall  42 x1     
+  [1131] syscall  43 x1     
+  [1132] syscall  42 x1     
+  [1133] syscall  43 x1     
+  [1134] syscall  42 x1     
+  [1135] syscall  34 x1     
+  [1136] syscall  42 x1     
+  [1137] syscall  43 x1     
+  [1138] syscall  42 x1     
+  [1139] syscall  43 x1     
+  [1140] syscall  42 x1     
+  [1141] syscall  34 x1     
+  [1142] syscall  42 x1     
+  [1143] syscall  34 x1     
+  [1144] syscall  42 x1     
+  [1145] syscall  34 x1     
+  [1146] syscall  42 x1     
+  [1147] syscall  37 x1     
+  [1148] syscall  34 x1     
+  [1149] syscall  38 x1     
+  [1150] syscall  34 x1     
+  [1151] syscall  38 x1     
+  [1152] syscall  34 x1     
+  [1153] syscall  38 x1     
+  [1154] syscall  34 x1     
+  [1155] syscall  38 x1     
+  [1156] syscall  34 x1     
+  [1157] syscall  38 x1     
+  [1158] syscall  34 x1     
+  [1159] syscall  38 x1     
+  [1160] syscall 213 x1     
+  [1161] syscall 214 x1     
+  [1162] syscall 250 x1     
+  [1163] syscall  89 x1     
+  [1164] syscall 162 x1     
+  [1165] syscall  37 x1     
+  [1166] syscall  34 x1     
+  [1167] syscall  38 x1     
+  [1168] syscall  34 x1     
+  [1169] syscall  38 x1     
+  [1170] syscall  34 x1     
+  [1171] syscall  38 x1     
+  [1172] syscall  34 x1     
+  [1173] syscall  38 x1     
+  [1174] syscall  34 x1     
+  [1175] syscall  38 x1     
+  [1176] syscall  34 x1     
+  [1177] syscall  38 x1     
+  [1178] syscall  37 x1     
+  [1179] syscall  34 x1     
+  [1180] syscall  38 x1     
+  [1181] syscall  34 x1     
+  [1182] syscall  38 x1     
+  [1183] syscall  34 x1     
+  [1184] syscall  38 x1     
+  [1185] syscall  34 x1     
+  [1186] syscall  38 x1     
+  [1187] syscall  34 x1     
+  [1188] syscall  38 x1     
+  [1189] syscall  34 x1     
+  [1190] syscall  38 x1     
+  [1191] syscall  81 x1     
+  [1192] syscall 242 x1     
+  [1193] syscall 243 x1        <=== candidate B (243)
+  [1194] syscall 146 x1     
+  [1195] syscall 162 x5     
+  [1196] syscall 147 x1     
+  [1197] syscall 162 x1     
+  [1198] syscall 147 x1     
+  [1199] syscall 162 x1     
+  [1200] syscall 147 x1     
+  [1201] syscall 162 x1     
+  [1202] syscall 147 x1     
+  [1203] syscall 162 x1     
+  [1204] syscall 147 x1     
+  [1205] syscall 162 x7     
+  [1206] syscall 147 x1     
+  [1207] syscall 162 x3     
+  [1208] syscall 147 x1     
+  [1209] syscall 162 x1     
+  [1210] syscall 147 x1     
+  [1211] syscall 162 x10    
+  [1212] syscall  62 x1     
+  [1213] syscall 162 x1     
+  [1214] syscall  62 x1     
+  [1215] syscall 162 x1     
+  [1216] syscall  62 x1     
+  [1217] syscall 162 x1     
+  [1218] syscall  62 x1     
+  [1219] syscall 162 x1     
+  [1220] syscall  62 x1     
+  [1221] syscall 162 x1     
+  [1222] syscall  62 x1     
+  [1223] syscall 162 x1     
+  [1224] syscall  62 x1     
+  [1225] syscall 162 x1     
+  [1226] syscall  62 x1     
+  [1227] syscall 162 x1     
+  [1228] syscall  62 x1     
+  [1229] syscall 162 x1     
+  [1230] syscall  62 x1     
+  [1231] syscall 162 x1     
+  [1232] syscall  62 x1     
+  [1233] syscall 162 x1     
+  [1234] syscall  62 x1     
+  [1235] syscall 162 x1     
+  [1236] syscall  62 x1     
+  [1237] syscall  81 x1     
+  [1238] syscall 190 x1     
+  [1239] syscall 192 x1     
+  [1240] syscall 162 x1     
+  [1241] syscall  81 x1     
+  [1242] syscall 190 x1     
+  [1243] syscall 192 x1     
+  [1244] syscall 162 x1     
+  [1245] syscall 177 x1     
+  [1246] syscall 138 x2     
+  [1247] syscall 143 x2     
+  [1248] syscall 147 x1     
+  [1249] syscall 169 x1     
+  [1250] syscall 149 x1     
+  [1251] syscall 171 x1     
+  [1252] syscall 148 x1     
+  [1253] syscall  62 x1     
+  [1254] syscall 174 x1     
+  [1255] syscall 157 x1     
+  [1256] syscall 238 x1     
+  [1257] syscall  87 x1     
+  [1258] syscall  88 x1     
+  [1259] syscall  71 x1        <=== candidate A (71)
+  [1260] syscall 169 x1     
+  [1261] syscall 149 x1     
+  [1262] syscall 162 x1     
+  [1263] syscall 223 x1     
+  [1264] syscall 171 x1     
+  [1265] syscall 169 x1     
+  [1266] syscall 149 x1     
+  [1267] syscall 162 x1     
+  [1268] syscall 223 x1     
+  [1269] syscall 171 x1     
+  [1270] syscall 169 x1     
+  [1271] syscall 149 x1     
+  [1272] syscall 162 x1     
+  [1273] syscall 223 x1     
+  [1274] syscall 171 x1     
+  [1275] syscall 169 x1     
+  [1276] syscall 149 x1     
+  [1277] syscall 162 x1     
+  [1278] syscall 223 x1     
+  [1279] syscall 171 x1     
+  [1280] syscall 169 x1     
+  [1281] syscall 149 x1     
+  [1282] syscall 162 x1     
+  [1283] syscall 223 x1     
+  [1284] syscall 171 x1     
+  [1285] syscall  81 x1     
+  [1286] syscall  74 x2     
+  [1287] syscall  77 x4     
+  [1288] syscall  74 x1     
+  [1289] syscall  10 x2     
+  [1290] syscall 220 x10752    (bulk: scene building)
+  [1291] syscall  54 x1     
+  [1292] syscall 222 x1     
+  [1293] syscall  57 x2     
+  [1294] syscall  55 x1     
+  [1295] syscall 222 x1     
+  [1296] syscall  57 x2     
+  [1297] syscall  55 x1     
+  [1298] syscall 222 x1     
+  [1299] syscall  57 x2     
+  [1300] syscall  55 x1     
+  [1301] syscall  74 x1     
+  [1302] syscall  75 x1     
+  [1303] syscall  74 x1     
+  [1304] syscall  75 x1     
+  [1305] syscall  74 x1     
+  [1306] syscall  10 x4     
+  [1307] syscall  74 x1     
+  [1308] syscall  75 x1     
+  [1309] syscall  74 x1     
+  [1310] syscall  10 x1     
+  [1311] syscall  74 x1     
+  [1312] syscall  75 x1     
+  [1313] syscall  74 x1     
+  [1314] syscall  10 x2     
+  [1315] syscall  55 x1     
+  [1316] syscall  53 x1     
+  [1317] syscall  55 x1     
+  [1318] syscall  53 x1     
+  [1319] syscall  55 x1     
+  [1320] syscall  10 x1     
+  [1321] syscall  74 x1     
+  [1322] syscall  75 x1     
+  [1323] syscall  74 x1     
+  [1324] syscall  10 x1     
+  [1325] syscall  74 x1     
+  [1326] syscall  75 x1     
+  [1327] syscall  74 x1     
+  [1328] syscall  10 x1     
+  [1329] syscall  74 x1     
+  [1330] syscall  75 x1     
+  [1331] syscall  74 x1     
+  [1332] syscall  10 x1     
+  [1333] syscall  74 x1     
+  [1334] syscall  78 x1     
+  [1335] syscall  74 x1     
+  [1336] syscall  10 x1     
+  [1337] syscall  74 x1     
+  [1338] syscall  75 x1     
+  [1339] syscall  74 x1     
+  [1340] syscall  10 x1     
+  [1341] syscall  74 x1     
+  [1342] syscall  78 x1     
+  [1343] syscall  74 x1     
+  [1344] syscall  10 x1     
+  [1345] syscall  74 x1     
+  [1346] syscall  75 x1     
+  [1347] syscall  74 x1     
+  [1348] syscall  10 x1     
+  [1349] syscall 224 x6     
+  [1350] syscall  74 x1     
+  [1351] syscall  78 x1     
+  [1352] syscall  74 x1     
+  [1353] syscall  78 x1     
+  [1354] syscall  74 x1     
+  [1355] syscall  78 x1     
+  [1356] syscall  74 x1     
+  [1357] syscall  78 x1     
+  [1358] syscall  74 x1     
+  [1359] syscall  78 x1     
+  [1360] syscall  74 x1     
+  [1361] syscall  78 x1     
+  [1362] syscall  74 x1     
+  [1363] syscall  10 x1     
+  [1364] syscall 226 x1     
+  [1365] syscall  74 x1     
+  [1366] syscall  10 x1     
+  [1367] syscall  74 x1     
+  [1368] syscall  75 x1     
+  [1369] syscall  74 x1     
+  [1370] syscall  75 x1     
+  [1371] syscall  74 x1     
+  [1372] syscall  54 x1     
+  [1373] syscall  81 x1     
+  [1374] syscall  49 x1     
+  [1375] syscall  74 x1     
+  [1376] syscall  75 x1     
+  [1377] syscall  74 x1     
+  [1378] syscall  54 x1     
+  [1379] syscall  81 x1     
+  [1380] syscall  57 x1     
+  [1381] syscall  53 x1     
+  [1382] syscall  55 x1     
+  [1383] syscall  54 x1     
+  [1384] syscall  81 x1     
+  [1385] syscall  57 x1     
+  [1386] syscall  53 x1     
+  [1387] syscall  55 x1     
+  [1388] syscall  54 x1     
+  [1389] syscall  81 x1     
+  [1390] syscall  57 x1     
+  [1391] syscall  53 x1     
+  [1392] syscall  55 x1     
+  [1393] syscall   5 x1     
+  [1394] syscall 185 x1     
+  [1395] syscall  28 x1     
+  [1396] syscall  29 x1     
+  [1397] syscall  31 x1     
+  [1398] syscall 206 x1     
+  [1399] syscall 207 x1     
+  (in id Tech 3 the render call follows the bulk entity adds)
+======= end call order =======
+
+========= CAMERA AUTHORITY TEST =========
+  ordinary frame-to-frame change : 0.05  (119 samples)
+  with camera toggled every other: 23.76  (119 samples)
+  RESULT: our refdef writes DO drive the renderer.
+  Teleporting the camera changed the image 483.1x more than
+  ordinary motion. The camera hook is sound; the remaining
+  faults are in presentation (blit/FOV/pose), not authority.
+=========================================
+  phase 0 [baseline (untouched)]  (16 rows of 2560 px)
+     left  mean   21.4 stddev  13.77 nonblack 20480/20480
+     right mean   17.6 stddev   6.99 nonblack 20479/20480
+     right/left detail ratio = 0.508
+  phase 1 [halve viewport via syscall 71]  (16 rows of 2560 px)
+     left  mean   35.7 stddev  11.85 nonblack 20480/20480
+     right mean   18.4 stddev  13.13 nonblack 20479/20480
+     right/left detail ratio = 1.108
+  phase 2 [halve viewport via syscall 243]  (16 rows of 2560 px)
+     left  mean   23.0 stddev   9.75 nonblack 20474/20480
+     right mean   18.7 stddev   8.58 nonblack 20476/20480
+     right/left detail ratio = 0.880
+  phase 3 [double render via syscall 71]  (16 rows of 2560 px)
+     left  mean   31.7 stddev  15.60 nonblack 20480/20480
+     right mean   17.7 stddev   6.34 nonblack 20480/20480
+     right/left detail ratio = 0.407
+  phase 4 [double render via syscall 243]  (16 rows of 2560 px)
+     left  mean   44.4 stddev  31.76 nonblack 20480/20480
+     right mean   47.7 stddev  18.27 nonblack 20426/20480
+     right/left detail ratio = 0.575
+
+=================== CONCLUSIONS ===================
+  baseline right/left detail ratio = 0.508
+
+  --- syscall 71 ---
+    halve viewport : ratio 1.108 -> no change: this refdef is NOT what the renderer reads
+
+  --- syscall 243 ---
+    halve viewport : ratio 0.880 -> no change: this refdef is NOT what the renderer reads
+
+  RESULT: neither candidate's refdef drives the renderer.
+  The camera is read from somewhere else; the cgame syscall hook
+  is not sufficient and the architecture needs revisiting.
+===================================================
+=== detached after 28907 frames ===

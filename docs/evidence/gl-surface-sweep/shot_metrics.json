@@ -1,0 +1,792 @@
+{
+  "frame": [
+    1440,
+    1440
+  ],
+  "stages": {
+    "gun_x": {
+      "class": "gun",
+      "delta_units": [
+        3.937,
+        0.0,
+        0.0
+      ],
+      "yaw_deg": 0.0,
+      "signal_px": 186715,
+      "signal_pct": 9.0044,
+      "blobs": [
+        {
+          "area": 171084,
+          "box": [
+            786,
+            855,
+            1438,
+            1438
+          ],
+          "cx": 1161.7,
+          "cy": 1116.1
+        },
+        {
+          "area": 8022,
+          "box": [
+            891,
+            832,
+            1048,
+            936
+          ],
+          "cx": 968.0,
+          "cy": 884.7
+        },
+        {
+          "area": 2230,
+          "box": [
+            765,
+            852,
+            841,
+            925
+          ],
+          "cx": 798.4,
+          "cy": 887.0
+        },
+        {
+          "area": 1348,
+          "box": [
+            161,
+            789,
+            207,
+            846
+          ],
+          "cx": 184.0,
+          "cy": 819.8
+        },
+        {
+          "area": 582,
+          "box": [
+            223,
+            650,
+            261,
+            691
+          ],
+          "cx": 240.7,
+          "cy": 671.1
+        },
+        {
+          "area": 449,
+          "box": [
+            763,
+            823,
+            798,
+            852
+          ],
+          "cx": 780.5,
+          "cy": 838.3
+        }
+      ],
+      "geometry": {
+        "blocks": 244,
+        "voting": 226,
+        "dx_median": 188.5,
+        "dx_p05": -345.25,
+        "dx_p95": 432.75,
+        "dy_median": 0.0,
+        "dy_absmax": 10.0,
+        "dy_within_2px_pct": 23.5,
+        "pixelShiftMedian": 234.0,
+        "pixelShiftP95": 440.25,
+        "sign_agreement_pct": 70.4
+      }
+    },
+    "gun_yaw": {
+      "class": "gun",
+      "delta_units": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yaw_deg": 15.0,
+      "signal_px": 132274,
+      "signal_pct": 6.379,
+      "blobs": [
+        {
+          "area": 114033,
+          "box": [
+            577,
+            773,
+            1120,
+            1411
+          ],
+          "cx": 821.5,
+          "cy": 1072.9
+        },
+        {
+          "area": 7020,
+          "box": [
+            767,
+            1326,
+            938,
+            1438
+          ],
+          "cx": 853.6,
+          "cy": 1399.9
+        },
+        {
+          "area": 6059,
+          "box": [
+            293,
+            754,
+            397,
+            878
+          ],
+          "cx": 343.7,
+          "cy": 819.5
+        },
+        {
+          "area": 697,
+          "box": [
+            887,
+            876,
+            918,
+            914
+          ],
+          "cx": 903.4,
+          "cy": 895.3
+        },
+        {
+          "area": 624,
+          "box": [
+            797,
+            1338,
+            837,
+            1394
+          ],
+          "cx": 815.9,
+          "cy": 1361.4
+        },
+        {
+          "area": 548,
+          "box": [
+            1027,
+            1241,
+            1073,
+            1276
+          ],
+          "cx": 1055.7,
+          "cy": 1258.0
+        },
+        {
+          "area": 512,
+          "box": [
+            644,
+            1046,
+            668,
+            1097
+          ],
+          "cx": 658.2,
+          "cy": 1068.8
+        },
+        {
+          "area": 422,
+          "box": [
+            767,
+            823,
+            794,
+            852
+          ],
+          "cx": 781.8,
+          "cy": 838.5
+        }
+      ],
+      "geometry": {
+        "blocks": 199,
+        "voting": 193,
+        "dx_median": -74.0,
+        "dx_p05": -300.4,
+        "dx_p95": 385.0,
+        "dy_median": -2.0,
+        "dy_absmax": 10.0,
+        "dy_within_2px_pct": 15.0,
+        "pixelShiftMedian": 174.0,
+        "pixelShiftP95": 391.79999999999995,
+        "sign_agreement_pct": 55.4
+      }
+    },
+    "handR_x": {
+      "class": "hand_R",
+      "delta_units": [
+        3.937,
+        0.0,
+        0.0
+      ],
+      "yaw_deg": 0.0,
+      "signal_px": 5774,
+      "signal_pct": 0.2785,
+      "blobs": [
+        {
+          "area": 2279,
+          "box": [
+            723,
+            852,
+            775,
+            958
+          ],
+          "cx": 749.1,
+          "cy": 911.3
+        },
+        {
+          "area": 1865,
+          "box": [
+            941,
+            858,
+            994,
+            917
+          ],
+          "cx": 968.0,
+          "cy": 887.6
+        },
+        {
+          "area": 830,
+          "box": [
+            1019,
+            922,
+            1053,
+            965
+          ],
+          "cx": 1037.9,
+          "cy": 946.1
+        }
+      ],
+      "geometry": {
+        "blocks": 9,
+        "voting": 8,
+        "dx_median": 112.0,
+        "dx_p05": -147.75,
+        "dx_p95": 254.74999999999997,
+        "dy_median": 3.5,
+        "dy_absmax": 10.0,
+        "dy_within_2px_pct": 0.0,
+        "pixelShiftMedian": 200.5,
+        "pixelShiftP95": 261.04999999999995,
+        "sign_agreement_pct": 87.5
+      }
+    },
+    "handL_x": {
+      "class": "hand_L",
+      "delta_units": [
+        -3.937,
+        0.0,
+        0.0
+      ],
+      "yaw_deg": 0.0,
+      "signal_px": 60860,
+      "signal_pct": 2.935,
+      "blobs": [
+        {
+          "area": 27519,
+          "box": [
+            843,
+            1237,
+            1035,
+            1438
+          ],
+          "cx": 933.8,
+          "cy": 1342.9
+        },
+        {
+          "area": 8611,
+          "box": [
+            1084,
+            1299,
+            1225,
+            1438
+          ],
+          "cx": 1148.9,
+          "cy": 1384.2
+        },
+        {
+          "area": 4347,
+          "box": [
+            456,
+            1265,
+            552,
+            1366
+          ],
+          "cx": 496.2,
+          "cy": 1305.0
+        },
+        {
+          "area": 4000,
+          "box": [
+            652,
+            1236,
+            702,
+            1422
+          ],
+          "cx": 669.0,
+          "cy": 1318.1
+        },
+        {
+          "area": 3082,
+          "box": [
+            322,
+            1331,
+            406,
+            1438
+          ],
+          "cx": 364.0,
+          "cy": 1384.5
+        },
+        {
+          "area": 3037,
+          "box": [
+            269,
+            1298,
+            354,
+            1417
+          ],
+          "cx": 301.1,
+          "cy": 1352.4
+        },
+        {
+          "area": 1320,
+          "box": [
+            1149,
+            1266,
+            1241,
+            1351
+          ],
+          "cx": 1193.4,
+          "cy": 1310.7
+        },
+        {
+          "area": 680,
+          "box": [
+            608,
+            1321,
+            629,
+            1368
+          ],
+          "cx": 618.6,
+          "cy": 1344.0
+        }
+      ],
+      "geometry": {
+        "blocks": 64,
+        "voting": 58,
+        "dx_median": 108.5,
+        "dx_p05": -315.0,
+        "dx_p95": 332.6,
+        "dy_median": 1.0,
+        "dy_absmax": 10.0,
+        "dy_within_2px_pct": 17.2,
+        "pixelShiftMedian": 210.0,
+        "pixelShiftP95": 359.19999999999993,
+        "sign_agreement_pct": 53.4
+      }
+    },
+    "sleeveR_x": {
+      "class": "sleeve_R",
+      "delta_units": [
+        3.937,
+        0.0,
+        0.0
+      ],
+      "yaw_deg": 0.0,
+      "signal_px": 79930,
+      "signal_pct": 3.8546,
+      "blobs": [
+        {
+          "area": 63562,
+          "box": [
+            416,
+            1035,
+            823,
+            1438
+          ],
+          "cx": 686.2,
+          "cy": 1241.1
+        },
+        {
+          "area": 4129,
+          "box": [
+            396,
+            1339,
+            561,
+            1438
+          ],
+          "cx": 483.9,
+          "cy": 1409.2
+        },
+        {
+          "area": 1483,
+          "box": [
+            518,
+            1278,
+            608,
+            1341
+          ],
+          "cx": 561.0,
+          "cy": 1311.6
+        },
+        {
+          "area": 1240,
+          "box": [
+            791,
+            1300,
+            841,
+            1389
+          ],
+          "cx": 812.4,
+          "cy": 1352.2
+        },
+        {
+          "area": 1205,
+          "box": [
+            715,
+            949,
+            771,
+            985
+          ],
+          "cx": 740.8,
+          "cy": 967.4
+        },
+        {
+          "area": 850,
+          "box": [
+            819,
+            1392,
+            857,
+            1438
+          ],
+          "cx": 835.2,
+          "cy": 1415.5
+        },
+        {
+          "area": 497,
+          "box": [
+            535,
+            1368,
+            566,
+            1396
+          ],
+          "cx": 551.9,
+          "cy": 1383.9
+        },
+        {
+          "area": 475,
+          "box": [
+            833,
+            1270,
+            855,
+            1323
+          ],
+          "cx": 840.5,
+          "cy": 1289.9
+        }
+      ],
+      "geometry": {
+        "blocks": 117,
+        "voting": 108,
+        "dx_median": 75.0,
+        "dx_p05": -112.0,
+        "dx_p95": 257.24999999999994,
+        "dy_median": -1.0,
+        "dy_absmax": 10.0,
+        "dy_within_2px_pct": 24.1,
+        "pixelShiftMedian": 112.0,
+        "pixelShiftP95": 260.29999999999995,
+        "sign_agreement_pct": 70.4
+      }
+    },
+    "sleeveL_x": {
+      "class": "sleeve_L",
+      "delta_units": [
+        -3.937,
+        0.0,
+        0.0
+      ],
+      "yaw_deg": 0.0,
+      "signal_px": 128123,
+      "signal_pct": 6.1788,
+      "blobs": [
+        {
+          "area": 98214,
+          "box": [
+            375,
+            964,
+            808,
+            1438
+          ],
+          "cx": 602.5,
+          "cy": 1228.5
+        },
+        {
+          "area": 14276,
+          "box": [
+            143,
+            1205,
+            398,
+            1438
+          ],
+          "cx": 297.6,
+          "cy": 1351.2
+        },
+        {
+          "area": 2760,
+          "box": [
+            357,
+            1109,
+            429,
+            1208
+          ],
+          "cx": 391.7,
+          "cy": 1146.5
+        },
+        {
+          "area": 1708,
+          "box": [
+            716,
+            950,
+            798,
+            1001
+          ],
+          "cx": 754.0,
+          "cy": 972.2
+        },
+        {
+          "area": 1550,
+          "box": [
+            246,
+            1234,
+            320,
+            1300
+          ],
+          "cx": 278.8,
+          "cy": 1265.4
+        },
+        {
+          "area": 1339,
+          "box": [
+            233,
+            1394,
+            298,
+            1438
+          ],
+          "cx": 261.1,
+          "cy": 1417.8
+        },
+        {
+          "area": 1272,
+          "box": [
+            302,
+            1164,
+            360,
+            1239
+          ],
+          "cx": 328.1,
+          "cy": 1208.2
+        },
+        {
+          "area": 749,
+          "box": [
+            402,
+            1146,
+            446,
+            1191
+          ],
+          "cx": 419.9,
+          "cy": 1166.5
+        }
+      ],
+      "geometry": {
+        "blocks": 198,
+        "voting": 197,
+        "dx_median": -198.0,
+        "dx_p05": -258.0,
+        "dx_p95": 402.0,
+        "dy_median": 0.0,
+        "dy_absmax": 10.0,
+        "dy_within_2px_pct": 46.7,
+        "pixelShiftMedian": 224.0,
+        "pixelShiftP95": 402.0,
+        "sign_agreement_pct": 67.0
+      }
+    }
+  },
+  "floor": {
+    "base0->base1": {
+      "mean": 0.6328,
+      "p99_5": 27.34,
+      "px_over_10": 33437,
+      "pct_over_10": 1.6125
+    },
+    "base1->base2": {
+      "mean": 0.7529,
+      "p99_5": 39.13,
+      "px_over_10": 42681,
+      "pct_over_10": 2.0583
+    },
+    "base2->base3": {
+      "mean": 0.8432,
+      "p99_5": 45.54,
+      "px_over_10": 42089,
+      "pct_over_10": 2.0298
+    },
+    "base3->base4": {
+      "mean": 1.1005,
+      "p99_5": 48.73,
+      "px_over_10": 57718,
+      "pct_over_10": 2.7835
+    },
+    "base4->base5": {
+      "mean": 1.6533,
+      "p99_5": 53.82,
+      "px_over_10": 81338,
+      "pct_over_10": 3.9226
+    },
+    "base5->base6": {
+      "mean": 0.979,
+      "p99_5": 35.03,
+      "px_over_10": 60491,
+      "pct_over_10": 2.9172
+    }
+  },
+  "null": {
+    "base0|base1|base2": {
+      "signal_px": 7444,
+      "signal_pct": 0.359,
+      "blobs_over_min": 2,
+      "largest_blob": 5164
+    },
+    "base1|base2|base3": {
+      "signal_px": 9993,
+      "signal_pct": 0.4819,
+      "blobs_over_min": 2,
+      "largest_blob": 8772
+    },
+    "base2|base3|base4": {
+      "signal_px": 2654,
+      "signal_pct": 0.128,
+      "blobs_over_min": 2,
+      "largest_blob": 1729
+    },
+    "base3|base4|base5": {
+      "signal_px": 6126,
+      "signal_pct": 0.2954,
+      "blobs_over_min": 1,
+      "largest_blob": 403
+    },
+    "base4|base5|base6": {
+      "signal_px": 3065,
+      "signal_pct": 0.1478,
+      "blobs_over_min": 1,
+      "largest_blob": 495
+    }
+  },
+  "overlap": {
+    "gun_x|gun_yaw": {
+      "intersection": 43834,
+      "union": 275155,
+      "iou": 0.15931,
+      "frac_of_a": 0.23476,
+      "frac_of_b": 0.33139
+    },
+    "gun_x|handR_x": {
+      "intersection": 2579,
+      "union": 189910,
+      "iou": 0.01358,
+      "frac_of_a": 0.01381,
+      "frac_of_b": 0.44666
+    },
+    "gun_x|handL_x": {
+      "intersection": 419,
+      "union": 247156,
+      "iou": 0.0017,
+      "frac_of_a": 0.00224,
+      "frac_of_b": 0.00688
+    },
+    "gun_x|sleeveR_x": {
+      "intersection": 787,
+      "union": 265858,
+      "iou": 0.00296,
+      "frac_of_a": 0.00421,
+      "frac_of_b": 0.00985
+    },
+    "gun_x|sleeveL_x": {
+      "intersection": 471,
+      "union": 314367,
+      "iou": 0.0015,
+      "frac_of_a": 0.00252,
+      "frac_of_b": 0.00368
+    },
+    "gun_yaw|handR_x": {
+      "intersection": 997,
+      "union": 137051,
+      "iou": 0.00727,
+      "frac_of_a": 0.00754,
+      "frac_of_b": 0.17267
+    },
+    "gun_yaw|handL_x": {
+      "intersection": 3840,
+      "union": 189294,
+      "iou": 0.02029,
+      "frac_of_a": 0.02903,
+      "frac_of_b": 0.0631
+    },
+    "gun_yaw|sleeveR_x": {
+      "intersection": 23520,
+      "union": 188684,
+      "iou": 0.12465,
+      "frac_of_a": 0.17781,
+      "frac_of_b": 0.29426
+    },
+    "gun_yaw|sleeveL_x": {
+      "intersection": 19227,
+      "union": 241170,
+      "iou": 0.07972,
+      "frac_of_a": 0.14536,
+      "frac_of_b": 0.15007
+    },
+    "handR_x|handL_x": {
+      "intersection": 0,
+      "union": 66634,
+      "iou": 0.0,
+      "frac_of_a": 0.0,
+      "frac_of_b": 0.0
+    },
+    "handR_x|sleeveR_x": {
+      "intersection": 2,
+      "union": 85702,
+      "iou": 2e-05,
+      "frac_of_a": 0.00035,
+      "frac_of_b": 3e-05
+    },
+    "handR_x|sleeveL_x": {
+      "intersection": 34,
+      "union": 133863,
+      "iou": 0.00025,
+      "frac_of_a": 0.00589,
+      "frac_of_b": 0.00027
+    },
+    "handL_x|sleeveR_x": {
+      "intersection": 7674,
+      "union": 133116,
+      "iou": 0.05765,
+      "frac_of_a": 0.12609,
+      "frac_of_b": 0.09601
+    },
+    "handL_x|sleeveL_x": {
+      "intersection": 13556,
+      "union": 175427,
+      "iou": 0.07727,
+      "frac_of_a": 0.22274,
+      "frac_of_b": 0.1058
+    },
+    "sleeveR_x|sleeveL_x": {
+      "intersection": 57060,
+      "union": 150993,
+      "iou": 0.3779,
+      "frac_of_a": 0.71387,
+      "frac_of_b": 0.44535
+    }
+  }
+}

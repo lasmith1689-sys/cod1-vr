@@ -1,0 +1,634 @@
+{
+ "rigs": [
+  {
+   "model": "viewmodel_hands_new",
+   "parts": "viewmodel_hands_new4",
+   "surfaces": [
+    {
+     "surface": 0,
+     "verts": 837,
+     "tris": 1304,
+     "vertexBase": 0,
+     "vertexRange": [
+      0,
+      837
+     ],
+     "sideCounts": {
+      "L": 837,
+      "R": 0,
+      "none": 0
+     },
+     "crossArmWeightedVerts": 0,
+     "structurallyPure": true,
+     "anatomicalSide": "L",
+     "palmBones": {
+      "bip01 l hand": 207
+     },
+     "triangleOwnership": {
+      "L": 1304,
+      "R": 0,
+      "UNKNOWN": 0,
+      "seam": 0
+     }
+    },
+    {
+     "surface": 1,
+     "verts": 837,
+     "tris": 1304,
+     "vertexBase": 837,
+     "vertexRange": [
+      837,
+      1674
+     ],
+     "sideCounts": {
+      "L": 0,
+      "R": 837,
+      "none": 0
+     },
+     "crossArmWeightedVerts": 0,
+     "structurallyPure": true,
+     "anatomicalSide": "R",
+     "palmBones": {
+      "bip01 r hand": 207
+     },
+     "triangleOwnership": {
+      "L": 0,
+      "R": 1304,
+      "UNKNOWN": 0,
+      "seam": 0
+     }
+    },
+    {
+     "surface": 2,
+     "verts": 120,
+     "tris": 158,
+     "vertexBase": 1674,
+     "vertexRange": [
+      1674,
+      1794
+     ],
+     "sideCounts": {
+      "L": 0,
+      "R": 120,
+      "none": 0
+     },
+     "crossArmWeightedVerts": 0,
+     "structurallyPure": true,
+     "anatomicalSide": "R",
+     "palmBones": {
+      "bip01 r hand": 33
+     },
+     "triangleOwnership": {
+      "L": 0,
+      "R": 158,
+      "UNKNOWN": 0,
+      "seam": 0
+     }
+    },
+    {
+     "surface": 3,
+     "verts": 120,
+     "tris": 158,
+     "vertexBase": 1794,
+     "vertexRange": [
+      1794,
+      1914
+     ],
+     "sideCounts": {
+      "L": 120,
+      "R": 0,
+      "none": 0
+     },
+     "crossArmWeightedVerts": 0,
+     "structurallyPure": true,
+     "anatomicalSide": "L",
+     "palmBones": {
+      "bip01 l hand": 33
+     },
+     "triangleOwnership": {
+      "L": 158,
+      "R": 0,
+      "UNKNOWN": 0,
+      "seam": 0
+     }
+    }
+   ],
+   "boneSideByAncestry": {
+    "tag_view": null,
+    "tag_torso": null,
+    "bip01 l upperarm": "L",
+    "bip01 r upperarm": "R",
+    "tag_weapon": null,
+    "bip01 l forearm": "L",
+    "bip01 r forearm": "R",
+    "bip01 l hand": "L",
+    "bip01 r hand": "R",
+    "bip01 l finger0": "L",
+    "bip01 l finger1": "L",
+    "bip01 l finger2": "L",
+    "bip01 l finger3": "L",
+    "bip01 l finger4": "L",
+    "bip01 r finger0": "R",
+    "bip01 r finger1": "R",
+    "bip01 r finger2": "R",
+    "bip01 r finger3": "R",
+    "bip01 r finger4": "R",
+    "l hand webbing": "L",
+    "r cuff": "R",
+    "r cuff01": "L",
+    "r hand webbing": "R",
+    "r wrist": "R",
+    "r wrist01": "L",
+    "bip01 l finger01": "L",
+    "bip01 l finger11": "L",
+    "bip01 l finger21": "L",
+    "bip01 l finger31": "L",
+    "bip01 l finger41": "L",
+    "bip01 r finger01": "R",
+    "bip01 r finger11": "R",
+    "bip01 r finger21": "R",
+    "bip01 r finger31": "R",
+    "bip01 r finger41": "R",
+    "bip01 l finger02": "L",
+    "bip01 l finger12": "L",
+    "bip01 l finger22": "L",
+    "bip01 l finger32": "L",
+    "bip01 l finger42": "L",
+    "bip01 r finger02": "R",
+    "bip01 r finger12": "R",
+    "bip01 r finger22": "R",
+    "bip01 r finger32": "R",
+    "bip01 r finger42": "R",
+    "bip01 l finger0nub": "L",
+    "bip01 l finger1nub": "L",
+    "bip01 l finger2nub": "L",
+    "bip01 l finger3nub": "L",
+    "bip01 l finger4nub": "L",
+    "bip01 r finger0nub": "R",
+    "bip01 r finger1nub": "R",
+    "bip01 r finger2nub": "R",
+    "bip01 r finger3nub": "R",
+    "bip01 r finger4nub": "R"
+   },
+   "namesThatLie": [
+    {
+     "bone": "r cuff01",
+     "nameClaims": "R",
+     "ancestry": "L",
+     "parent": "bip01 l hand"
+    },
+    {
+     "bone": "r wrist01",
+     "nameClaims": "R",
+     "ancestry": "L",
+     "parent": "bip01 l hand"
+    }
+   ],
+   "totalVerts": 1914
+  },
+  {
+   "model": "viewmodel_hands_sten",
+   "parts": "viewmodel_hands_sten4",
+   "surfaces": [
+    {
+     "surface": 0,
+     "verts": 837,
+     "tris": 1304,
+     "vertexBase": 0,
+     "vertexRange": [
+      0,
+      837
+     ],
+     "sideCounts": {
+      "L": 837,
+      "R": 0,
+      "none": 0
+     },
+     "crossArmWeightedVerts": 0,
+     "structurallyPure": true,
+     "anatomicalSide": "L",
+     "palmBones": {
+      "bip01 l hand": 207
+     },
+     "triangleOwnership": {
+      "L": 1304,
+      "R": 0,
+      "UNKNOWN": 0,
+      "seam": 0
+     }
+    },
+    {
+     "surface": 1,
+     "verts": 837,
+     "tris": 1304,
+     "vertexBase": 837,
+     "vertexRange": [
+      837,
+      1674
+     ],
+     "sideCounts": {
+      "L": 0,
+      "R": 837,
+      "none": 0
+     },
+     "crossArmWeightedVerts": 0,
+     "structurallyPure": true,
+     "anatomicalSide": "R",
+     "palmBones": {
+      "bip01 r hand": 207
+     },
+     "triangleOwnership": {
+      "L": 0,
+      "R": 1304,
+      "UNKNOWN": 0,
+      "seam": 0
+     }
+    },
+    {
+     "surface": 2,
+     "verts": 120,
+     "tris": 158,
+     "vertexBase": 1674,
+     "vertexRange": [
+      1674,
+      1794
+     ],
+     "sideCounts": {
+      "L": 0,
+      "R": 120,
+      "none": 0
+     },
+     "crossArmWeightedVerts": 0,
+     "structurallyPure": true,
+     "anatomicalSide": "R",
+     "palmBones": {
+      "bip01 r hand": 33
+     },
+     "triangleOwnership": {
+      "L": 0,
+      "R": 158,
+      "UNKNOWN": 0,
+      "seam": 0
+     }
+    },
+    {
+     "surface": 3,
+     "verts": 120,
+     "tris": 158,
+     "vertexBase": 1794,
+     "vertexRange": [
+      1794,
+      1914
+     ],
+     "sideCounts": {
+      "L": 120,
+      "R": 0,
+      "none": 0
+     },
+     "crossArmWeightedVerts": 0,
+     "structurallyPure": true,
+     "anatomicalSide": "L",
+     "palmBones": {},
+     "triangleOwnership": {
+      "L": 158,
+      "R": 0,
+      "UNKNOWN": 0,
+      "seam": 0
+     }
+    }
+   ],
+   "boneSideByAncestry": {
+    "tag_view": null,
+    "tag_torso": null,
+    "bip01 l upperarm": "L",
+    "bip01 r upperarm": "R",
+    "tag_weapon": null,
+    "bip01 l forearm": "L",
+    "bip01 r forearm": "R",
+    "bip01 l hand": "L",
+    "bip01 r hand": "R",
+    "bip01 l finger0": "L",
+    "bip01 l finger1": "L",
+    "bip01 l finger2": "L",
+    "bip01 l finger3": "L",
+    "bip01 l finger4": "L",
+    "bip01 r finger0": "R",
+    "bip01 r finger1": "R",
+    "bip01 r finger2": "R",
+    "bip01 r finger3": "R",
+    "bip01 r finger4": "R",
+    "l hand webbing": "L",
+    "r cuff": "R",
+    "r cuff01": "L",
+    "r hand webbing": "R",
+    "r wrist": "R",
+    "r wrist01": "L",
+    "bip01 l finger01": "L",
+    "bip01 l finger11": "L",
+    "bip01 l finger21": "L",
+    "bip01 l finger31": "L",
+    "bip01 l finger41": "L",
+    "bip01 r finger01": "R",
+    "bip01 r finger11": "R",
+    "bip01 r finger21": "R",
+    "bip01 r finger31": "R",
+    "bip01 r finger41": "R",
+    "bip01 l finger02": "L",
+    "bip01 l finger12": "L",
+    "bip01 l finger22": "L",
+    "bip01 l finger32": "L",
+    "bip01 l finger42": "L",
+    "bip01 r finger02": "R",
+    "bip01 r finger12": "R",
+    "bip01 r finger22": "R",
+    "bip01 r finger32": "R",
+    "bip01 r finger42": "R"
+   },
+   "namesThatLie": [
+    {
+     "bone": "r cuff01",
+     "nameClaims": "R",
+     "ancestry": "L",
+     "parent": "bip01 l hand"
+    },
+    {
+     "bone": "r wrist01",
+     "nameClaims": "R",
+     "ancestry": "L",
+     "parent": "bip01 l hand"
+    }
+   ],
+   "totalVerts": 1914
+  },
+  {
+   "model": "viewmodel_hands",
+   "parts": "viewmodel_hands4",
+   "surfaces": [
+    {
+     "surface": 0,
+     "verts": 93,
+     "tris": 133,
+     "vertexBase": 0,
+     "vertexRange": [
+      0,
+      93
+     ],
+     "sideCounts": {
+      "L": 0,
+      "R": 93,
+      "none": 0
+     },
+     "crossArmWeightedVerts": 0,
+     "structurallyPure": true,
+     "anatomicalSide": "R",
+     "palmBones": {},
+     "triangleOwnership": {
+      "L": 0,
+      "R": 133,
+      "UNKNOWN": 0,
+      "seam": 0
+     }
+    },
+    {
+     "surface": 1,
+     "verts": 93,
+     "tris": 133,
+     "vertexBase": 93,
+     "vertexRange": [
+      93,
+      186
+     ],
+     "sideCounts": {
+      "L": 93,
+      "R": 0,
+      "none": 0
+     },
+     "crossArmWeightedVerts": 0,
+     "structurallyPure": true,
+     "anatomicalSide": "L",
+     "palmBones": {},
+     "triangleOwnership": {
+      "L": 133,
+      "R": 0,
+      "UNKNOWN": 0,
+      "seam": 0
+     }
+    },
+    {
+     "surface": 2,
+     "verts": 302,
+     "tris": 383,
+     "vertexBase": 186,
+     "vertexRange": [
+      186,
+      488
+     ],
+     "sideCounts": {
+      "L": 0,
+      "R": 302,
+      "none": 0
+     },
+     "crossArmWeightedVerts": 0,
+     "structurallyPure": true,
+     "anatomicalSide": "R",
+     "palmBones": {
+      "bip01 r hand": 59
+     },
+     "triangleOwnership": {
+      "L": 0,
+      "R": 383,
+      "UNKNOWN": 0,
+      "seam": 0
+     }
+    },
+    {
+     "surface": 3,
+     "verts": 302,
+     "tris": 383,
+     "vertexBase": 488,
+     "vertexRange": [
+      488,
+      790
+     ],
+     "sideCounts": {
+      "L": 302,
+      "R": 0,
+      "none": 0
+     },
+     "crossArmWeightedVerts": 0,
+     "structurallyPure": true,
+     "anatomicalSide": "L",
+     "palmBones": {
+      "bip01 l hand": 59
+     },
+     "triangleOwnership": {
+      "L": 383,
+      "R": 0,
+      "UNKNOWN": 0,
+      "seam": 0
+     }
+    }
+   ],
+   "boneSideByAncestry": {
+    "tag_view": null,
+    "tag_torso": null,
+    "bip01 r upperarm": "R",
+    "bip01 l upperarm": "L",
+    "tag_weapon": null,
+    "bip01 r forearm": "R",
+    "bip01 l forearm": "L",
+    "bip01 r hand": "R",
+    "bip01 l hand": "L",
+    "r cuff": "R",
+    "bip01 r finger1": "R",
+    "bip01 r finger4": "R",
+    "bip01 r finger3": "R",
+    "bip01 r finger2": "R",
+    "r hand webbing": "R",
+    "bip01 r finger0": "R",
+    "r wrist": "R",
+    "r cuff01": "L",
+    "bip01 l finger1": "L",
+    "bip01 l finger0": "L",
+    "bip01 l finger4": "L",
+    "bip01 l finger3": "L",
+    "bip01 l finger2": "L",
+    "l hand webbing": "L",
+    "r wrist01": "L",
+    "bip01 r finger41": "R",
+    "bip01 r finger31": "R",
+    "bip01 r finger21": "R",
+    "bip01 r finger11": "R",
+    "bip01 r finger01": "R",
+    "bip01 l finger41": "L",
+    "bip01 l finger31": "L",
+    "bip01 l finger21": "L",
+    "bip01 l finger11": "L",
+    "bip01 l finger01": "L",
+    "bip01 r finger42": "R",
+    "bip01 r finger32": "R",
+    "bip01 r finger22": "R",
+    "bip01 r finger12": "R",
+    "bip01 r finger02": "R",
+    "bip01 l finger42": "L",
+    "bip01 l finger32": "L",
+    "bip01 l finger22": "L",
+    "bip01 l finger12": "L",
+    "bip01 l finger02": "L"
+   },
+   "namesThatLie": [
+    {
+     "bone": "r cuff01",
+     "nameClaims": "R",
+     "ancestry": "L",
+     "parent": "bip01 l hand"
+    },
+    {
+     "bone": "r wrist01",
+     "nameClaims": "R",
+     "ancestry": "L",
+     "parent": "bip01 l hand"
+    }
+   ],
+   "totalVerts": 790
+  }
+ ],
+ "laterality": [
+  {
+   "weapon": "kar98k",
+   "kind": "bolt rifle",
+   "handModel": "viewmodel_hands_new",
+   "gunModel": "viewmodel_kar98k",
+   "d_rearGrip_Lpalm_in": 15.37,
+   "d_rearGrip_Rpalm_in": 0.0,
+   "d_support_Lpalm_in": 0.0,
+   "d_support_Rpalm_in": 15.37,
+   "rearGripPalm": "R",
+   "supportPalm": "L",
+   "interPalm_in": 15.37,
+   "boneSideAncestry": {
+    "bip01 l hand": "L"
+   }
+  },
+  {
+   "weapon": "thompson",
+   "kind": "SMG",
+   "handModel": "viewmodel_hands_new",
+   "gunModel": "viewmodel_thompson",
+   "d_rearGrip_Lpalm_in": 11.95,
+   "d_rearGrip_Rpalm_in": 0.0,
+   "d_support_Lpalm_in": 0.0,
+   "d_support_Rpalm_in": 11.95,
+   "rearGripPalm": "R",
+   "supportPalm": "L",
+   "interPalm_in": 11.95,
+   "boneSideAncestry": {
+    "bip01 l hand": "L"
+   }
+  },
+  {
+   "weapon": "m1garand",
+   "kind": "semi-auto rifle",
+   "handModel": "viewmodel_hands_new",
+   "gunModel": "viewmodel_m1garand",
+   "d_rearGrip_Lpalm_in": 16.57,
+   "d_rearGrip_Rpalm_in": 0.0,
+   "d_support_Lpalm_in": 0.0,
+   "d_support_Rpalm_in": 16.57,
+   "rearGripPalm": "R",
+   "supportPalm": "L",
+   "interPalm_in": 16.57,
+   "boneSideAncestry": {
+    "bip01 l hand": "L"
+   }
+  },
+  {
+   "weapon": "bar",
+   "kind": "unusual support layout (bipod LMG)",
+   "handModel": "viewmodel_hands_new",
+   "gunModel": "viewmodel_BAR",
+   "d_rearGrip_Lpalm_in": 15.53,
+   "d_rearGrip_Rpalm_in": 0.0,
+   "d_support_Lpalm_in": 0.0,
+   "d_support_Rpalm_in": 15.53,
+   "rearGripPalm": "R",
+   "supportPalm": "L",
+   "interPalm_in": 15.53,
+   "boneSideAncestry": {
+    "bip01 l hand": "L"
+   }
+  },
+  {
+   "weapon": "sten",
+   "kind": "SMG, alternate hand rig",
+   "handModel": "viewmodel_hands_sten",
+   "gunModel": "viewmodel_sten",
+   "d_rearGrip_Lpalm_in": 13.76,
+   "d_rearGrip_Rpalm_in": 0.0,
+   "d_support_Lpalm_in": 0.0,
+   "d_support_Rpalm_in": 13.76,
+   "rearGripPalm": "R",
+   "supportPalm": "L",
+   "interPalm_in": 13.76,
+   "boneSideAncestry": {
+    "bip01 l hand": "L"
+   }
+  },
+  {
+   "weapon": "mp40",
+   "kind": "SMG",
+   "handModel": "viewmodel_hands_sten",
+   "gunModel": "viewmodel_mp40",
+   "d_rearGrip_Lpalm_in": 12.13,
+   "d_rearGrip_Rpalm_in": 0.0,
+   "d_support_Lpalm_in": 0.0,
+   "d_support_Rpalm_in": 12.13,
+   "rearGripPalm": "R",
+   "supportPalm": "L",
+   "interPalm_in": 12.13,
+   "boneSideAncestry": {
+    "bip01 l hand": "L"
+   }
+  }
+ ]
+}
