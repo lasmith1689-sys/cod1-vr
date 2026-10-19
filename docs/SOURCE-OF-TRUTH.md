@@ -1,5 +1,12 @@
 # Source of truth
 
+> **Reading this from a clone?** This document is historical. It records how,
+> on 2026-08-24, the canonical source tree was identified among four candidates
+> on the original author's machine, by hashing each tree's build output against
+> the deployed DLL. **This repository is that tree.** The `H:\Projects\...`
+> paths below are that machine's local layout; they will not exist on yours,
+> and there are no other trees here to choose between.
+
 **Canonical tree: `H:\Projects\COD-VR-render-hands`**
 
 Established 2026-08-24. Build from here. Do not build from any other tree.

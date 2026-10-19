@@ -227,6 +227,10 @@ Override any of them when discovery picks wrong:
 `CODVR_VCVARS`, `CODVR_PYTHON` and `CODVR_GAME_DIR` do the same thing from the
 environment.
 
+If you are picking this project up rather than just building it, start with
+[CONTRIBUTING.md](CONTRIBUTING.md): it says what the gate means, which design
+notes are current, and which are history.
+
 ---
 
 ## License

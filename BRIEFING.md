@@ -1,5 +1,12 @@
 # Call of Duty 1 (2003) → Quest 3 VR — Full Project Briefing
 
+> **Historical document, written 2026-08-17.** The project moved a long way
+> afterwards: controller hands, the stereo and temporal work, the comfort
+> changes and the material pass all came later. Read this for background and
+> for the reverse-engineering findings, not as a description of current state.
+> The dated notes in [`docs/`](docs) are newer, and
+> [CONTRIBUTING.md](CONTRIBUTING.md) says where to start.
+
 **Audience:** a coordinating agent picking this up cold, with no prior conversation context.
 **Date of this snapshot:** 2026-08-17.
 **Repo root:** `H:\Projects\COD VR` (not a git repo — no version control, edits are live).
