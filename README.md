@@ -42,7 +42,7 @@ Everything is the usual mouse and keyboard, plus:
 
 | Key | Action |
 |---|---|
-| **F9** | Recenter — makes where you are sitting and facing the new "straight ahead" |
+| **HOME** | Recenter — makes where you are sitting and facing the new "straight ahead". Also the left controller's stick click. Change the key with `recenterKey` |
 | **Q / E** | Snap turn, if you enable it (off by default) |
 
 **Aiming.** The mouse aims, exactly as in the flat game — both left/right and
@@ -56,6 +56,8 @@ look around without changing where you are pointing.
 
 All in `codvr.cfg`, next to the game executable. Every setting is read at
 startup, so changes take effect on the next launch — nothing needs rebuilding.
+
+`codvr.cfg` documents every key in its own comments; this page covers only the common ones. Many settings can also be changed in the headset: hold the left stick click for VR Options, which saves back to `codvr.cfg`.
 
 ### If it runs badly
 
@@ -86,11 +88,13 @@ turn, which removes the peripheral motion that causes VR sickness, and opens
 back up when you stop.
 
 ```
-vignette 1              # on by default
+vr_comfort_vignette 1   # off in the shipped codvr.cfg; 1 turns it on
 vignetteStrength 1.0    # how far it closes; try 0.6 for subtler
 vignetteSpeed 40        # LOWER = closes sooner when walking
 vignetteTurn 45         # LOWER = closes sooner when turning
 ```
+
+`vignette` is an older name for the same switch. `vr_comfort_vignette` comes later in `codvr.cfg`, so it is the one that counts; it is also what the in-headset VR Options panel saves.
 
 If turning specifically bothers you, switch to snap turning:
 
